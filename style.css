@@ -10,7 +10,18 @@ body{
     height: 90vh;
     box-sizing: border-box;
     padding: 35px;
-
+    /*parallax*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*parallax*/
+}
+/*Turn off Parallax for mobile and tablet*/
+@media only screen and (max-device-width: 1025px) {
+  #chapters {
+    background-attachment: scroll;
+  }
 }
 .chapter-title{
     text-align: center;
@@ -85,10 +96,21 @@ body{
     background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)),url(newshomepagebackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 90vh;
     box-sizing: border-box;
     padding: 35px;
-
+    /*parallax*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*parallax*/
+}
+/*Turn off Parallax for mobile and tablet*/
+@media only screen and (max-device-width: 1025px) {
+  #news {
+    background-attachment: scroll;
+  }
 }
 .news-title{
     text-align: center;
@@ -164,10 +186,21 @@ body{
     background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)),url(aboutushomepagebackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 90vh;
     box-sizing: border-box;
     padding: 35px;
-
+    /*parallax*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     /*parallax*/
+}
+/*Turn off Parallax for mobile and tablet*/
+@media only screen and (max-device-width: 1025px) {
+  #aboutus {
+    background-attachment: scroll;
+  }
 }
 .aboutus-title{
     text-align: center;
