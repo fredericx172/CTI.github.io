@@ -1,1 +1,239 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*CHAPTERS STYLE START*/
+#chapters{
+    background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)),url(chaptershomepagebackground.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    box-sizing: border-box;
+    padding: 35px;
 
+}
+.chapter-title{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15%;
+    font-family: "latto", sans-serif ;
+    color: black;
+    font-size: 30px;
+}
+.chapter-info{
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    font-family: "latto", sans-serif ;
+    color: black;
+    font-size: 20px;
+}
+.button {
+    display: inline-flex;
+    height: 40px;
+    width: 190px;
+    border: 2px solid black;
+    margin: 20px 20px 20px 20px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 23.5%;
+    margin-top: 25px;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  #button-2 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #button-2 a {
+    position: relative;
+    transition: all .35s ease-Out;
+  }
+  
+  #slide {
+    width: 100%;
+    height: 100%;
+    left: -200px;
+    background: #BFC0C0;
+    position: absolute;
+    transition: all .35s ease-Out;
+    bottom: 0;
+  }
+  
+  #button-2:hover #slide {
+    left: 0;
+  }
+  
+  #button-2:hover a {
+    color: #2D3142;
+  }
+  /*CHAPTERS STYLE END*/
+
+  /*NEWS STYLE START*/
+  #news{
+    background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)),url(newshomepagebackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    box-sizing: border-box;
+    padding: 35px;
+
+}
+.news-title{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15%;
+    font-family: "latto", sans-serif ;
+    color: black;
+    font-size: 30px;
+}
+.news-info{
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    font-family: "latto", sans-serif ;
+    color: black;
+    font-size: 20px;
+}
+.button {
+    display: inline-flex;
+    height: 40px;
+    width: 190px;
+    border: 2px solid black;
+    margin: 20px 20px 20px 20px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 42.8%;
+    margin-top: 25px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  #button-2 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #button-2 a {
+    position: relative;
+    transition: all .35s ease-Out;
+  }
+  
+  #slide {
+    width: 100%;
+    height: 100%;
+    left: -200px;
+    background: #BFC0C0;
+    position: absolute;
+    transition: all .35s ease-Out;
+    bottom: 0;
+  }
+  
+  #button-2:hover #slide {
+    left: 0;
+  }
+  
+  #button-2:hover a {
+    color: #2D3142;
+  }
+  /*NEWS SECTION END*/
+
+/*ABOUT US SECTION START*/
+#aboutus{
+    background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)),url(aboutushomepagebackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    box-sizing: border-box;
+    padding: 35px;
+
+}
+.aboutus-title{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15%;
+    font-family: "latto", sans-serif ;
+    color: black;
+    font-size: 30px;
+}
+.aboutus-info{
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    font-family: "latto", sans-serif ;
+    color: black;
+    font-size: 20px;
+}
+.button {
+    display: inline-flex;
+    height: 40px;
+    width: 190px;
+    border: 2px solid black;
+    margin: 20px 20px 20px 20px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 42.8%;
+    margin-top: 25px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  #button-2 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #button-2 a {
+    position: relative;
+    transition: all .35s ease-Out;
+  }
+  
+  #slide {
+    width: 100%;
+    height: 100%;
+    left: -200px;
+    background: #BFC0C0;
+    position: absolute;
+    transition: all .35s ease-Out;
+    bottom: 0;
+  }
+  
+  #button-2:hover #slide {
+    left: 0;
+  }
+  
+  #button-2:hover a {
+    color: #2D3142;
+  }
+/*ABOUT US SECTION END*/
