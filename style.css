@@ -18,8 +18,19 @@ body{
     /*parallax*/
 }
 /*Turn off Parallax for mobile and tablet*/
-@media only screen and (max-device-width: 1025px) {
+@media only screen and (max-device-width: 1060px) {
   #chapters {
+    background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)),url(chaptershomepagebackground.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 35px;
+    background-position: center;
+    /*parallax*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: scroll;
   }
 }
