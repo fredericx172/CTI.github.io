@@ -4,10 +4,39 @@
         <link href="style.css" rel="stylesheet">
         <link href="index.js">
         <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Coding Tomorrow Initiative</title>
     </head>
     <body>
-
+	 <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+	</script>
+	    
+	<a href="index.html"><img src="logo.jpeg" id="logo"></a>
+	<div class="topnav" id="myTopnav">
+	  <a href="#" class="active">Donate</a>
+	    <a href="#">Contact</a>
+	      <div class="dropdown">
+	    <button class="dropbtn">Get Involved 
+	      <i class="fa fa-caret-down"></i>
+	    </button>
+	    <div class="dropdown-content">
+	      <a href="#">Volunteer</a>
+	      <a href="#">Department Application</a>
+	      <a href="#">Start a New Chapter</a>
+	    </div>
+	  </div> 
+	  <a href="#">News</a>
+	  <a href="#">Chapters</a>
+	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">☰</a>
+	</div>
         <section id="aboutus">
             <div class="aboutus-title">
                 <h2>ABOUT US</h2>
