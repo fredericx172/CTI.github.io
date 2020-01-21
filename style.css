@@ -361,7 +361,7 @@ position: sticky;
     box-sizing: border-box;
     padding: 35px;
     /*parallax*/
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
