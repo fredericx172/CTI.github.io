@@ -459,12 +459,16 @@ body{
     color: black;
     font-size: 20px;
 }
-footer{
+font-family: Lato;
+src: url(https://fonts.googleapis.com/css?family=Lato&display=swap);
+       }
+    		footer{
     		background-color: #3C4894;
-    		font-family: "Lato", Arial, sans-serif;
-    		height: 8vw;
-    		min-height: 2cm;
-    		
+    		font-family: 'Lato', sans-serif;
+    		height: 25vw;
+    		min-height: 3in;
+    		display: block;
+    		padding: 1vw;
     		}
     		.icon{
     		display: inline;
@@ -473,22 +477,29 @@ footer{
     		margin-top: .5vw;
     		margin-left: 1vw;
     		margin-right: 1vw;
+    		margin-bottom: 0;
     		padding: .25vw;
     		}
     		.icons{
-    		float:right;
+    		display: block;
+    		width: 30vw;
+    		margin: 0 auto;
+    		height: 1.25in;
+    		min-width: 3in;
+    		text-align: center;
+    		padding-top: 5vw;
     		}
     		.icon:hover{
     		background-color: #525EAB;  		
     		}
     		.footer a{
-    		font-size: 18px;
+    		font-size: .5cm;
     		text-decoration: none;
     		color: #f2f2f2;
     		}
     		.footerbtns{
-    		float:left;
     		margin-top: 1.75vw;
+    		text-align: right;
     		}
     		.footerbtn{
     		width: 5vw;
@@ -502,28 +513,58 @@ footer{
     		#mailing-list{
     		margin-left: 10px;
     		}
-    		#copyright{
+    		.copyright{
     		color: #f2f2f2;
     		display: block;
     		text-align: center;
-    		margin-left: 5vw;
-    		padding-right: 0;
-    		margin-right:0;
     		padding-top: 5vw;
+    		background-color:#3C4894;
+    		margin: 0;
     		}
-    		@media screen and (max-width: 6in) {
-		footer{
-                height:12vw;
-             	}
-    		.footerbtn{
-    		padding: 5px;
+    		#social-media{
+    			font-size: 20px;
+    			color: white;
+    		}
+    		#logo-footer{
+				float: left;
+				width: 15vw;
+				min-width: 1in;
+				margin: 0;
+				border-left: 0;	
+    		}
+    		.logo-footer{
+    		margin: 0;
+    		padding: 0;
+    		}
+    		@media screen and (max-width: 1025px) {
+    		footer{
+    		height: 6.1in;
     		}
     		.icon{
     		margin-left: 0;
     		margin-right: 0;
     		}
+    		.footerbtn{
+    		display: inline-block;
+    		width: 100%;
+    		margin: 1vw 0;
+    		margin-left: 0;
+    		padding-left: 0;
+    		}
+    		.logo-footer{
+    		display: block;
+    		width: 2in;
+    		margin: 0 auto;
+    		text-align: center;
+    		}
+    		#logo-footer{
+    		width: 100%;
+    		margin: 0 auto;
+    		}
     		#mailing-list{
-    		margin-left: 3px;
-    		display:inline;
+    		margin-left: 0;
+    		}
+    		.icons{
+    		padding-top: 0;
     		}
     		}
