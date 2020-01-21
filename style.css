@@ -1,8 +1,16 @@
+@font-face{
+font-family: Lato;
+src: url(https://fonts.googleapis.com/css?family=Lato&display=swap);
+       }
 body{
     margin: 0;
     padding: 0;
 }
 /* HEADER HOVER ANIMATION */
+header{
+top: 0;
+position: sticky;
+}
 .cl-effect-1 a::before,
 .cl-effect-1 a::after {
 	display: inline-block;
@@ -190,15 +198,15 @@ body{
     text-align: center;
     text-decoration: none;
     margin-top: 15%;
-    font-family: "latto", sans-serif ;
+    font-family: "lato", sans-serif ;
     color: black;
     font-size: 30px;
 }
 .chapter-info{
     text-align: center;
     text-decoration: none;
-    padding-top: 20px;
-    font-family: "latto", sans-serif ;
+    padding-top: 3px;
+    font-family: "lato", sans-serif ;
     color: black;
     font-size: 20px;
 }
@@ -279,7 +287,7 @@ body{
     text-align: center;
     text-decoration: none;
     margin-top: 15%;
-    font-family: "latto", sans-serif ;
+    font-family: "lato", sans-serif ;
     color: black;
     font-size: 30px;
 }
@@ -287,7 +295,7 @@ body{
     text-align: center;
     text-decoration: none;
     padding-top: 20px;
-    font-family: "latto", sans-serif ;
+    font-family: "lato", sans-serif ;
     color: black;
     font-size: 20px;
 }
@@ -359,17 +367,11 @@ body{
     background-size: cover;
      /*parallax*/
 }
-/*Turn off Parallax for mobile and tablet*/
-@media only screen and (max-device-width: 1025px) {
-  #aboutus {
-    background-attachment: scroll;
-  }
-}
 .aboutus-title{
     text-align: center;
     text-decoration: none;
     margin-top: 15%;
-    font-family: "latto", sans-serif ;
+    font-family: "lato", sans-serif;
     color: black;
     font-size: 30px;
 }
@@ -377,9 +379,31 @@ body{
     text-align: center;
     text-decoration: none;
     padding-top: 20px;
-    font-family: "latto", sans-serif ;
+    font-family: "lato", sans-serif;
     color: black;
     font-size: 20px;
+}
+/*Turn off Parallax for mobile and tablet*/
+@media only screen and (max-device-width: 1025px) {
+  #aboutus {
+    background-attachment: scroll;
+  }
+
+.aboutus-title{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+}
+.aboutus-info{
+    text-align: justify;
+    text-decoration: none;
+    font-family: "lato", sans-serif;
+    color: black;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
 }
 /*ABOUT US SECTION END*/
 #team{
@@ -459,12 +483,9 @@ body{
     color: black;
     font-size: 20px;
 }
-font-family: Lato;
-src: url(https://fonts.googleapis.com/css?family=Lato&display=swap);
-       }
     		footer{
     		background-color: #3C4894;
-    		font-family: 'Lato', sans-serif;
+    		font-family: 'Lato', Arial, sans-serif;
     		height: 25vw;
     		min-height: 3in;
     		display: block;
@@ -547,9 +568,10 @@ src: url(https://fonts.googleapis.com/css?family=Lato&display=swap);
     		.footerbtn{
     		display: inline-block;
     		width: 80%;
-    		margin: 1vw 0;
-    		margin-left: 0;
-    		padding-left: 0;
+    		margin-top: 2vw;
+    		}
+    		.footerbtns{
+    		text-align: center;
     		}
     		.logo-footer{
     		display: block;
