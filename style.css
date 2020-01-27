@@ -354,27 +354,39 @@ position: sticky;
 
 /*ABOUT US SECTION START*/
 #aboutus{
-    background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)),url(aboutushomepagebackground.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 90vh;
-    box-sizing: border-box;
+    background-color: #525EAB;
+    height: 100vh;
     padding: 35px;
-    /*parallax*/
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-     /*parallax*/
 }
 .aboutus-title{
     text-align: center;
     text-decoration: none;
-    margin-top: 15%;
-    font-family: "lato", sans-serif;
-    color: black;
-    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 40px;
+    padding-top: 5vw;
 }
+.abtus{
+	font-family: "Lato", sans-serif;
+	color: white;
+	width: 70vw;
+}
+#abtus-1{
+	float: right;
+	padding-left: 30vw;
+	}
+#abtus-1, #abtushead1{
+	text-align: right;
+	}
+#abtus-2, #abtushead2{
+	text-align: left;
+	}	
+.about-head{
+	font-size: 30px;
+	font-family: "Lato", sans-serif;
+	color: white;
+	}
+/*	
 .aboutus-info{
     text-align: center;
     text-decoration: none;
@@ -383,11 +395,9 @@ position: sticky;
     color: black;
     font-size: 20px;
 }
+*/
 /*Turn off Parallax for mobile and tablet*/
 @media only screen and (max-device-width: 1025px) {
-  #aboutus {
-    background-attachment: scroll;
-  }
 
 .aboutus-title{
     font-size: 30px;
@@ -404,7 +414,7 @@ position: sticky;
     margin: 0;
     padding: 0;
 }
-}
+
 /*ABOUT US SECTION END*/
 #team{
     background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)),url(teamSection.jpg);
@@ -556,6 +566,10 @@ position: sticky;
     		.logo-footer{
     		margin: 0;
     		padding: 0;
+    		width: 33vw;
+    		}
+    		#footer-des{
+    		display: block;
     		}
     		@media screen and (max-width: 1025px) {
     		footer{
