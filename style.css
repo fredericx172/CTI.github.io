@@ -352,70 +352,7 @@ position: sticky;
   }
   /*NEWS SECTION END*/
 
-/*ABOUT US SECTION START*/
-#aboutus{
-    background-color: #525EAB;
-    height: 100vh;
-    padding: 35px;
-}
-.aboutus-title{
-    text-align: center;
-    text-decoration: none;
-    font-family: "Lato", sans-serif;
-    color: white;
-    font-size: 40px;
-    padding-top: 5vw;
-}
-.abtus{
-	font-family: "Lato", sans-serif;
-	color: white;
-	width: 70vw;
-}
-#abtus-1{
-	float: right;
-	padding-left: 30vw;
-	}
-#abtus-1, #abtushead1{
-	text-align: right;
-	}
-#abtus-2, #abtushead2{
-	text-align: left;
-	}	
-.about-head{
-	font-size: 30px;
-	font-family: "Lato", sans-serif;
-	color: white;
-	}
-/*	
-.aboutus-info{
-    text-align: center;
-    text-decoration: none;
-    padding-top: 20px;
-    font-family: "lato", sans-serif;
-    color: black;
-    font-size: 20px;
-}
-*/
-/*Turn off Parallax for mobile and tablet*/
-@media only screen and (max-device-width: 1025px) {
 
-.aboutus-title{
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    height: 30px;
-}
-.aboutus-info{
-    text-align: justify;
-    text-decoration: none;
-    font-family: "lato", sans-serif;
-    color: black;
-    font-size: 18px;
-    margin: 0;
-    padding: 0;
-}
-
-/*ABOUT US SECTION END*/
 #team{
     background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)),url(teamSection.jpg);
     background-size: 100%;
@@ -493,114 +430,162 @@ position: sticky;
     color: black;
     font-size: 20px;
 }
-    		footer{
-    		background-color: #3C4894;
-    		font-family: 'Lato', Arial, sans-serif;
-    		height: 25vw;
-    		min-height: 3in;
-    		display: block;
-    		padding: 1vw;
-    		}
-    		.icon{
-    		display: inline;
-    		width: 3vw;
-    		min-width: 1cm;
-    		margin-top: .5vw;
-    		margin-left: 1vw;
-    		margin-right: 1vw;
-    		margin-bottom: 0;
-    		padding: .25vw;
-    		}
-    		.icons{
-    		display: block;
-    		width: 30vw;
-    		margin: 0 auto;
-    		height: 1.25in;
-    		min-width: 3in;
-    		text-align: center;
-    		padding-top: 5vw;
-    		}
-    		.icon:hover{
-    		background-color: #525EAB;  		
-    		}
-    		.footer a{
-    		font-size: .5cm;
-    		text-decoration: none;
-    		color: #f2f2f2;
-    		}
-    		.footerbtns{
-    		margin-top: 1.75vw;
-    		text-align: right;
-    		}
-    		.footerbtn{
-    		width: 5vw;
-    		padding: 1vw;
-    		text-align: center;
-    		background-color: #525EAB;
-    		}
-    		.footerbtn:hover{
-    		background-color: #C4D0E4;
-    		}
-    		#mailing-list{
-    		margin-left: 10px;
-    		}
-    		.copyright{
-    		color: #f2f2f2;
-    		display: block;
-    		text-align: center;
-    		padding-top: 5vw;
-    		background-color:#3C4894;
-    		margin: 0;
-    		}
-    		#social-media{
-    			font-size: 20px;
-    			color: white;
-    		}
-    		#logo-footer{
-				float: left;
-				width: 15vw;
-				min-width: 1in;
-				margin: 0;
-				border-left: 0;	
-    		}
-    		.logo-footer{
-    		margin: 0;
-    		padding: 0;
-    		width: 33vw;
-    		}
-    		#footer-des{
-    		display: block;
-    		}
-    		@media screen and (max-width: 1025px) {
-    		footer{
-    		height: 6.1in;
-    		}
-    		.icon{
-    		margin-left: 0;
-    		margin-right: 0;
-    		}
-    		.footerbtn{
-    		display: inline-block;
-    		width: 80%;
-    		margin-top: 2vw;
-    		}
-    		.footerbtns{
-    		text-align: center;
-    		}
-    		.logo-footer{
-    		display: block;
-    		width: 2in;
-    		margin: 0 auto;
-    		text-align: center;
-    		}
-    		#logo-footer{
-    		width: 100%;
-    		margin: 0 auto;
-    		}
-    		#mailing-list{
-    		margin-left: 0;
-    		}
-    		.icons{
-    		padding-top: 0;
-    		}
-    		}
+footer{
+    background-color: #3C4894;
+    font-family: 'Lato', sans-serif;
+    height: 25vw;
+    min-height: 3in;
+    display: block;
+    padding: 1vw;
+    }
+.icon{
+  	display: inline;
+  	width: 3vw;
+    min-width: 1cm;
+    margin-top: .5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 0;
+    padding: .25vw;
+    }
+.icons{
+  	display: block;
+    width: 30vw;
+    margin: 0 auto;
+    height: 1.25in;
+    min-width: 3in;
+    text-align: center;
+    padding-top: 5vw;
+	}
+.icon:hover{
+	background-color: #525EAB;  		
+    }
+.footer a{
+  	font-size: .5cm;
+    text-decoration: none;
+    color: #f2f2f2;
+    }
+    .footerbtns{
+    margin-top: 1.75vw;
+    text-align: right;
+    }
+    .footerbtn{
+    width: 5vw;
+    padding: 1vw;
+    text-align: center;
+    background-color: #525EAB;
+    }
+    .footerbtn:hover{
+    background-color: #C4D0E4;
+    }
+    #mailing-list{
+    margin-left: 10px;
+    }
+    .copyright{
+    color: #f2f2f2;
+    display: block;
+    text-align: center;
+    padding-top: 5vw;
+    background-color:#3C4894;
+    margin: 0;
+    }
+#social-media{
+    font-size: 20px;
+    color: white;
+    }
+#logo-footer{
+	float: left;
+	width: 15vw;
+	min-width: 1in;
+	margin: 0;
+	border-left: 0;	
+    }
+.logo-footer{
+    margin: 0;
+    padding: 0;
+    }
+@media screen and (max-width: 1025px) {
+    footer{
+    height: 6.1in;
+    }
+    .icon{
+    margin-left: 0;
+    margin-right: 0;
+    }
+.footerbtn{
+    display: inline-block;
+    width: 100%;
+    margin: 1vw 0;
+    margin-left: 0;
+    padding-left: 0;
+    }
+.logo-footer{
+    display: block;
+    width: 2in;
+    margin: 0 auto;
+    text-align: center;
+    }
+#logo-footer{
+    width: 100%;
+    margin: 0 auto;
+    }
+#mailing-list{
+    margin-left: 0;
+    }
+.icons{
+	padding-top: 0;
+    }
+    }
+/*ABOUT US SECTION START*/
+#aboutus{
+    background-color: #525EAB;
+    height: 100vh;
+    padding: 35px;
+}
+.aboutus-title{
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 40px;
+    padding-top: 5vw;
+}
+.abtus{
+	font-family: "Lato", sans-serif;
+	color: white;
+	width: 70vw;
+}
+#abtus-1{
+	float: right;
+	padding-left: 30vw;
+	}
+#abtus-1, #abtushead1{
+	text-align: right;
+	}
+#abtus-2, #abtushead2{
+	text-align: left;
+	}	
+.about-head{
+	font-size: 30px;
+	font-family: "Lato", sans-serif;
+	color: white;
+	}
+@media only screen and (max-device-width: 1025px) {
+
+.aboutus-title{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+}
+.aboutus-info{
+    text-align: justify;
+    text-decoration: none;
+    font-family: "lato", sans-serif;
+    color: black;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+/*ABOUT US SECTION END*/    
