@@ -589,3 +589,50 @@ footer{
 }
 
 /*ABOUT US SECTION END*/    
+.container video {
+    position:relative;
+    z-index:0;
+    width: 100%;
+    height: 100%;
+}
+.overlay {
+    position:absolute;
+   
+    z-index:1;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.container p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: thin;
+  letter-spacing: 0.1rem;
+  text-align: left;
+  overflow: hidden;
+}
+.container p span.typed-text {
+  font-weight: thin;
+  color: gold;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: gold; }
+  49% { background-color: gold; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: gold; }
+}
