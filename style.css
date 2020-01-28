@@ -2,10 +2,10 @@
 font-family: Lato;
 src: url(https://fonts.googleapis.com/css?family=Lato&display=swap);
        }
-body{
+/*body{
     margin: 0;
     padding: 0;
-}
+}*/
 /* HEADER HOVER ANIMATION */
 header{
 top: 0;
@@ -603,8 +603,8 @@ footer{
 .container {
   height: 100%;
   width: 100%;
-  display: flex;
-  justify-content: left;
+ /*  display: flex;
+ justify-content: left;*/
   align-items: center;
 }
 .container p {
