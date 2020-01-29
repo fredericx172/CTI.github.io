@@ -596,14 +596,13 @@ footer{
 }
 .overlay {
     position:absolute;
-   
     z-index:1;
 }
 .container {
   height: 100%;
   width: 100%;
- /*  display: flex;
- justify-content: left;*/
+ display: flex;
+ justify-content: left;
   align-items: center;
 }
 .container p {
