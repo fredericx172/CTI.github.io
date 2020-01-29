@@ -636,7 +636,7 @@ footer{
   100%  { background-color: gold; }
 }
 
-	//styling code for the scrollbar
+
 ::-webkit-scrollbar{
           width: 0;
         }
