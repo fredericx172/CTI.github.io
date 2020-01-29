@@ -640,7 +640,7 @@ footer{
 ::-webkit-scrollbar{
           width: 0;
         }
-        #progressbar{
+#progressbar{
           position: fixed;
           top: 0; 
           right: 0;
