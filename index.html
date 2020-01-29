@@ -18,22 +18,10 @@ function myFunction() {
     x.className = "topnav";
   }
 }
-	</script>
+	    </script>
 	    
 <div id="progressbar"></div>
-      
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-	</script>
-   
-	    
+          
 	<header>    
 	<a href="index.html"><img src="logo.jpeg" id="logo"></a>
 	<div class="topnav" id="myTopnav">
@@ -223,5 +211,15 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
 			</div>
 			</div>
 		</footer>
+	     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+       <script type="text/javascript">
+          $(window).scroll(function(){
+              var scroll = $(window).scrollTop(),
+              dh = $(document).height(),
+              wh = $(window).height();
+              scrollPercent = (scroll / (dh-wh)) *100;
+              $('#progressbar').css('height', scrollPercent + '%');
+              });
+       </script>
     </body>
 </html>
