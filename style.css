@@ -641,10 +641,10 @@ footer{
         }
 #progressbar{
           position: fixed;
-          top: 0; 
+          bottom: 0; 
           right: 0;
           width: 10px ;
           height: 100%;
-          background: linear-gradient(to bottom, #C4D0E4, #525EAB, #303265 );
+          background: linear-gradient(to right, #C4D0E4, #525EAB, #303265 );
           z-index: 0;
         }
