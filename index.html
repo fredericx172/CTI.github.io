@@ -18,41 +18,38 @@ function myFunction() {
     x.className = "topnav";
   }
 }
-	    </script>
-	    
-<div id="progressbar"></div>
-          
-	<header>    
+	</script>
+	<header>
 	<a href="index.html"><img src="logo.jpeg" id="logo"></a>
 	<div class="topnav" id="myTopnav">
 	<nav class="cl-effect-1">
 	  <a href="#" class="active">Donate</a>
 	    <a href="#">Contact</a>
 	      <div class="dropdown">
-	    <button class="dropbtn">Get Involved 
+      <button class="dropbtn">Get Involved
 	      <i class="fa fa-caret-down"></i>
 	    </button>
 	    <div class="dropdown-content">
 	      <a href="#">Volunteer</a>
 	      <a href="#">Department Application</a>
 	      <a href="#">Start a New Chapter</a>
-	    </div>
-	  </div> 
+      </div>
+	  </div>
 	  <a href="#">News</a>
 	  <a href="#">Chapters</a>
 		</nav>
 	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">☰</a>
 	</div>
 	</header>
-	    
-	    <div class="container" style="width: 100%; height: 100%;">
+
+	    <div class="container">
 <video autoplay muted loop id="myVideo">
   <source src="https://video-previews.elements.envatousercontent.com/h264-video-previews/e6ab377b-738a-4c40-bb76-1bba395b1c30/20833432.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
 
      <div class="overlay">
-    <p style="color: red;">We <span class="typed-text"></span><span class="cursor" >&nbsp;</span></p>
+    <p style="color: gold;">We <span class="typed-text"></span><span class="cursor" >&nbsp;</span></p>
   </div>
 </div>
 
@@ -78,7 +75,7 @@ function type() {
     typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
     charIndex++;
     setTimeout(type, typingDelay);
-  } 
+  }
   else {
     cursorSpan.classList.remove("typing");
   	setTimeout(erase, newTextDelay);
@@ -91,7 +88,7 @@ function erase() {
     typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
     charIndex--;
     setTimeout(erase, erasingDelay);
-  } 
+  }
   else {
     cursorSpan.classList.remove("typing");
     textArrayIndex++;
@@ -105,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
 });
 </script>
 
-	    
+
         <section id="aboutus">
             <div class="aboutus-title">
                 <h2>ABOUT US</h2>
@@ -157,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
                 <div id="slide"></div>
                 <a href="#">Explore news</a>
               </div>
-      
+
         </section>
 	    <!--team section-->
         <section id="team">
@@ -188,18 +185,19 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
           </div>
         </section>
 <footer>
-			
+
 			<div class="footer">
-			<div class="logo-footer"><img src="logo.jpeg" alt="logo-footer" id="logo-footer"> 
+			<div class="logo-footer"><img src="logo.jpeg" alt="logo-footer" id="logo-footer">
 				<p id="footer-des">Coding Tomorrow initiative is a blah blah</p></div>
 				<div class="footerbtns">
-				<a href="mailing-list-signup.html" id="mailing-list" class="footerbtn">Join the Mailing List!</a>
+        <nav class="cl-effect-1">
+        <a href="mailing-list-signup.html" id="mailing-list" class="footerbtn">Join the Mailing List!</a>
 				<a href="contact.html" class="footerbtn">Contact Us</a>
 				<a href="donate.html" class="footerbtn">Donate</a>
 				<a href="donate.html" class="footerbtn">Terms and Services</a>
 				</div>
-			<br>	
-			<div class="icons">				
+			<br>
+			<div class="icons">
 				<p id="social-media"> Follow us on social media! </p><br>
 				<a href="https://www.facebook.com" class="iconlink"><img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" alt="Facebook Icon" class="icon"></a>
 				<a href="https://www.instagram.com" class="iconlink"><img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" alt="Instagram Icon" class="icon"></a>
@@ -211,15 +209,5 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
 			</div>
 			</div>
 		</footer>
-	     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-       <script type="text/javascript">
-          $(window).scroll(function(){
-              var scroll = $(window).scrollTop(),
-              dh = $(document).height(),
-              wh = $(window).height();
-              scrollPercent = (scroll / (dh-wh)) *100;
-              $('#progressbar').css('height', scrollPercent + '%');
-              });
-       </script>
     </body>
 </html>
