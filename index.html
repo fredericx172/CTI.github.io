@@ -2,6 +2,7 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
         <link href="index.js">
         <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,37 +19,99 @@ function myFunction() {
   }
 }
 	</script>
-	<header>    
+	<header>
 	<a href="index.html"><img src="logo.jpeg" id="logo"></a>
 	<div class="topnav" id="myTopnav">
 	<nav class="cl-effect-1">
-	  <a href="#" class="active">Donate</a>
+	  <a href="donate.html" class="active">Donate</a>
 	    <a href="#">Contact</a>
 	      <div class="dropdown">
-	    <button class="dropbtn">Get Involved 
+      <button class="dropbtn">Get Involved
 	      <i class="fa fa-caret-down"></i>
 	    </button>
 	    <div class="dropdown-content">
 	      <a href="#">Volunteer</a>
 	      <a href="#">Department Application</a>
 	      <a href="#">Start a New Chapter</a>
-	    </div>
-	  </div> 
+      </div>
+	  </div>
 	  <a href="#">News</a>
 	  <a href="#">Chapters</a>
 		</nav>
 	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">☰</a>
 	</div>
 	</header>
+
+	    <div class="container">
+<video autoplay muted loop id="myVideo">
+  <source src="https://video-previews.elements.envatousercontent.com/h264-video-previews/e6ab377b-738a-4c40-bb76-1bba395b1c30/20833432.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+     <div class="overlay">
+    <p style="color: gold;">We <span class="typed-text"></span><span class="cursor" >&nbsp;</span></p>
+  </div>
+</div>
+
+
+<script>
+var video = document.getElementById("myVideo");
+
+//animation for text being typed
+
+const typedTextSpan = document.querySelector(".typed-text");
+const cursorSpan = document.querySelector(".cursor");
+
+const textArray = ["increase tech literacy.", "provide digital knowledge for all inspired youth.", "promote important programming skills."];
+const typingDelay = 20;
+const erasingDelay = 10;
+const newTextDelay = 2000; // Delay between current and next text
+let textArrayIndex = 0;
+let charIndex = 0;
+
+function type() {
+  if (charIndex < textArray[textArrayIndex].length) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, typingDelay);
+  }
+  else {
+    cursorSpan.classList.remove("typing");
+  	setTimeout(erase, newTextDelay);
+  }
+}
+
+function erase() {
+	if (charIndex > 0) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+    charIndex--;
+    setTimeout(erase, erasingDelay);
+  }
+  else {
+    cursorSpan.classList.remove("typing");
+    textArrayIndex++;
+    if(textArrayIndex>=textArray.length) textArrayIndex=0;
+    setTimeout(type, typingDelay + 1100);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+  if(textArray.length) setTimeout(type, newTextDelay + 250);
+});
+</script>
+
+
         <section id="aboutus">
             <div class="aboutus-title">
                 <h2>ABOUT US</h2>
             </div>
             <div class="aboutus-info">
-                <h3 class="about-head">Who are we?</h3>
-                <p>We are a group of students that believes every person has the right to access the internet and deserves the opportunity to a proper internet education. Our time is dedicated to the proliferation of programming education opportunities, online literacy, and knowledge of internet etiquette.</p>
-                <h3 class="about-head">WHAT DO WE DO?</h3>
-                <p>Currently, our efforts primarily consist of providing free coding classes for kids in boot camp style classes. Our programming classes curriculum includes HTML, Python, CSS, and Java, with the number of languages extending. Additionally, we are also introducing basic internet etiquette classes, in order to better introduce the online environment to those who aren't as familiar.
+                <h3 class="about-head" id="abtushead1">Who are we?</h3>
+                <p class="abtus" id="abtus-1">We are a group of students that believes every person has the right to access the internet and deserves the opportunity to a proper internet education. Our time is dedicated to the proliferation of programming education opportunities, online literacy, and knowledge of internet etiquette.</p>
+                <h3 class="about-head" id="abtushead2">WHAT DO WE DO?</h3>
+                <p class="abtus" id="abtus-2">Currently, our efforts primarily consist of providing free coding classes for kids in boot camp style classes. Our programming classes curriculum includes HTML, Python, CSS, and Java, with the number of languages extending. Additionally, we are also introducing basic internet etiquette classes, in order to better introduce the online environment to those who aren't as familiar.
                 </p>
             </div>
 
@@ -91,7 +154,7 @@ function myFunction() {
                 <div id="slide"></div>
                 <a href="#">Explore news</a>
               </div>
-      
+
         </section>
 	    <!--team section-->
         <section id="team">
@@ -122,18 +185,20 @@ function myFunction() {
           </div>
         </section>
 <footer>
-			
+
 			<div class="footer">
-			<div class="logo-footer"><img src="logo.jpeg" alt="logo-footer" id="logo-footer"></div>
+			<div class="logo-footer"><img src="logo.jpeg" alt="logo-footer" id="logo-footer">
+				<p id="footer-des">Coding Tomorrow initiative is a blah blah</p></div>
 				<div class="footerbtns">
-				<a href="mailing-list-signup.html" id="mailing-list" class="footerbtn">Join the Mailing List!</a>
+        <nav class="cl-effect-1">
+        <a href="mailing-list-signup.html" id="mailing-list" class="footerbtn">Join the Mailing List!</a>
 				<a href="contact.html" class="footerbtn">Contact Us</a>
 				<a href="donate.html" class="footerbtn">Donate</a>
 				<a href="donate.html" class="footerbtn">Terms and Services</a>
 				</div>
-			<br>	
-			<div class="icons">				
-				<p id="social-media"> Join our social media! </p><br>
+			<br>
+			<div class="icons">
+				<p id="social-media"> Follow us on social media! </p><br>
 				<a href="https://www.facebook.com" class="iconlink"><img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" alt="Facebook Icon" class="icon"></a>
 				<a href="https://www.instagram.com" class="iconlink"><img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" alt="Instagram Icon" class="icon"></a>
 				<a href="https://www.linkedin.com" class="iconlink"><img src="http://www.clearautomation.com/wp-content/uploads/2017/08/linkedin-icon-300x300.png" alt="Linkedin Icon" class="icon"></a>
