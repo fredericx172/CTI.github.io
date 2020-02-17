@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="volunteer.css" rel="stylesheet">
+    <style>
+    	@font-face{
+font-family: Lato;
+src: url(https://fonts.googleapis.com/css?family=Lato&display=swap);
+       }
+	</style>
+        
+        <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Coding Tomorrow Initiative</title>
+    </head>
+    <body>
+	 <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+	</script>
+	<header>    
+	<a href="index.html"><img src="logo.jpeg" id="logo"></a>
+	<div class="topnav" id="myTopnav">
+	<nav class="cl-effect-1">
+	  <a href="#" class="active">Donate</a>
+	    <a href="#">Contact</a>
+	      <div class="dropdown">
+	    <button class="dropbtn">Get Involved 
+	      <i class="fa fa-caret-down"></i>
+	    </button>
+	    <div class="dropdown-content">
+	      <a href="#">Volunteer</a>
+	      <a href="#">Department Application</a>
+	      <a href="#">Start a New Chapter</a>
+	    </div>
+	  </div> 
+	  <a href="#">News</a>
+	  <a href="#">Chapters</a>
+		</nav>
+	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">☰</a>
+	</div>
+	</header>
+<h2 id="vol-title">Volunteer Form</h2>
+<div class="vol-form">
+
+
+<form action="mailto:annachen031014@gmail.com" method="post" enctype="text/plain">
+<div>
+	<h3>Name</h3>
+	<input type="text" name="first-name" placeholder="First Name" class="vol-input first-name" required>
+	<input type="text" name="last-name" placeholder="Last Name" class="vol-input last-name" required>
+</div>
+<h3>Contact</h3>
+<input type="text" name="phone-number" placeholder="Phone Number" class="vol-input first-name" required>
+<input type="text" name="city" placeholder="City" class="vol-input last-name" required>
+<select class="form-control" id="state" required>
+              <option value="" disabled selected>Select a State</option>
+              <option value="AL">Alabama</option>
+              <option value="AK">Alaska</option>
+              <option value="AZ">Arizona</option>
+              <option value="AR">Arkansas</option>
+              <option value="CA">California</option>
+              <option value="CO">Colorado</option>
+              <option value="CT">Connecticut</option>
+              <option value="DC">District of Columbia</option>
+              <option value="DE">Delaware</option>
+              <option value="FL">Florida</option>
+              <option value="GA">Georgia</option>
+              <option value="HI">Hawaii</option>
+              <option value="ID">Idaho</option>
+              <option value="IN">Illinois</option>
+              <option value="IA">Indiana</option>
+              <option value="KS">Iowa</option>
+              <option value="KY">Kansas</option>
+              <option value="LA">Louisiana</option>
+              <option value="ME">Maine</option>
+              <option value="MD">Maryland</option>
+              <option value="MA">Massachussetts</option>
+              <option value="MI">Michigan</option>
+              <option value="MN">Minnesota</option>
+              <option value="MS">Mississippi</option>
+              <option value="MO">Missouri</option>
+              <option value="MT">Montana</option>
+              <option value="NE">Nebraska</option>
+              <option value="NV">Nevada</option>
+              <option value="NH">New Hampshire</option>
+              <option value="NJ">New Jersey</option>
+              <option value="NM">New Mexico</option>
+              <option value="NY">New York</option>
+              <option value="NC">North Carolina</option>
+              <option value="ND">North Dakota</option>
+              <option value="OH">Ohio</option>
+              <option value="OK">Oklahoma</option>
+              <option value="OR">Oregon</option>
+              <option value="PA">Pennsylvania</option>
+              <option value="RI">Rhode Island</option>
+              <option value="SC">South Carolina</option>
+              <option value="SD">South Dakota</option>
+              <option value="TN">Tennessee</option>
+              <option value="TX">Texas</option>
+              <option value="UT">Utah</option>
+              <option value="VT">Vermont</option>
+              <option value="VA">Virgina</option>
+              <option value="WA">Washington</option>
+              <option value="WV">West Virgina</option>
+              <option value="WI">Wisconsin</option>
+              <option value="WY">Wyoming</option>
+            </select>
+<input type="email" id="email" name="email"
+  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" class="vol-input last-name" required>  
+<h3>Education</h3>
+<input type="text" name="hs" placeholder="High School" class="vol-input last-name" required>  
+<select class="form-control" id="state" required>
+              <option value="" disabled selected>Grade Level</option>
+              <option value="9">9th</option>
+              <option value="10">10th</option>
+              <option value="11">11th</option>
+              <option value="12">12th</option>
+            </select>
+<h3>About You</h3>
+<textarea name="prior-volunteer-xp" placeholder="Prior Volunteering Experience"class="large-input" required></textarea>
+<textarea name="prior-program-xp" placeholder="Do you have any prior experience with programming? If yes, please elaborate."class="large-input" required></textarea>
+<textarea name="prior-digital-xp" placeholder="Do you have any prior digital experience? (Do you have any experience interacting with the internet in ways that are not programming-involved) If yes, please elaborate."class="large-input" required></textarea>
+<button type="submit" id="vol-sub">Submit</button>
+</form>
+</div>
+<footer>
+	<div class="row">
+  		<div class="column">
+  			<div class="logo">
+  				<img src="logo.jpeg" alt="logo" id="footer-logo">
+  				<p id="footer-info">
+  					CIT is a non-profit organization. blah blah put the rest of the info here in this line. The quick brown fox jumped over the lazy dogs.
+  				</p>
+  			</div>
+  		</div>
+  		<div class="column">
+  				<form id="footer-email" action="/action_page.php">
+  					Join the mailing list!<br>
+  					<input type="email" name="email"><br>
+  					<input type="submit" value="Submit" style="padding: 0;">
+				</form>
+				<div class="icons">				
+				<p id="social-media"> Join our social media! </p>
+				<a href="https://www.facebook.com" class="iconlink"><img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" alt="Facebook Icon" class="icon"></a>
+				<a href="https://www.instagram.com" class="iconlink"><img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" alt="Instagram Icon" class="icon"></a>
+				<a href="https://www.linkedin.com" class="iconlink"><img src="http://www.clearautomation.com/wp-content/uploads/2017/08/linkedin-icon-300x300.png" alt="Linkedin Icon" class="icon"></a>
+				<a href="https://www.twitter.com" class="iconlink"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_color-512.png" alt="Twitter Icon" class="icon"></a>
+				</div>
+  		</div>
+  		<div class="column, last-column">
+  			<h2>
+  				Contact Us
+  			</h2>
+  			<div class="contact-info">
+  				<p>
+  				<strong> Address: </strong> Address added here. <br>
+  				<strong> Phone: </strong> Phone added here. <br>
+  				<strong> Email: </strong> Email added here. <br>
+  				<a href="#">Donate</a><br>
+  				<a href="#">Terms and Services</a>
+  				</p>	
+  			<p id="copyright">
+			&copy; 2020 Coding Initiative Tomorrow
+			</p>
+  			</div>
+  			</div>			
+	</div>	
+</footer>
+    </body>
+</html>
