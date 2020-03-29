@@ -8,137 +8,48 @@
 font-family: Lato;
 src: url(https://fonts.googleapis.com/css?family=Lato&display=swap);
        }
-    		footer{
-    		background-color: #3C4894;
-    		font-family: 'Lato', sans-serif;
-    		height: 25vw;
-    		min-height: 3in;
-    		display: block;
-    		padding: 1vw;
-    		}
-    		.icon{
-    		display: inline;
-    		width: 3vw;
-    		min-width: 1cm;
-    		margin-top: .5vw;
-    		margin-left: 1vw;
-    		margin-right: 1vw;
-    		margin-bottom: 0;
-    		padding: .25vw;
-    		}
-    		.icons{
-    		display: block;
-    		width: 30vw;
-    		margin: 0 auto;
-    		height: 1.25in;
-    		min-width: 3in;
-    		text-align: center;
-    		padding-top: 5vw;
-    		}
-    		.icon:hover{
-    		background-color: #525EAB;  		
-    		}
-    		.footer a{
-    		font-size: .5cm;
-    		text-decoration: none;
-    		color: #f2f2f2;
-    		}
-    		.footerbtns{
-    		margin-top: 1.75vw;
-    		text-align: right;
-    		}
-    		.footerbtn{
-    		width: 5vw;
-    		padding: 1vw;
-    		text-align: center;
-    		background-color: #525EAB;
-    		}
-    		.footerbtn:hover{
-    		background-color: #C4D0E4;
-    		}
-    		#mailing-list{
-    		margin-left: 10px;
-    		}
-    		.copyright{
-    		color: #f2f2f2;
-    		display: block;
-    		text-align: center;
-    		padding-top: 5vw;
-    		background-color:#3C4894;
-    		margin: 0;
-    		}
-    		#social-media{
-    			font-size: 20px;
-    			color: white;
-    		}
-    		#logo-footer{
-				float: left;
-				width: 15vw;
-				min-width: 1in;
-				margin: 0;
-				border-left: 0;	
-    		}
-    		.logo-footer{
-    		margin: 0;
-    		padding: 0;
-    		}
-    		@media screen and (max-width: 6in) {
-    		footer{
-    		height: 6.1in;
-    		}
-    		.icon{
-    		margin-left: 0;
-    		margin-right: 0;
-    		}
-    		.footerbtn{
-    		display: inline-block;
-    		width: 100%;
-    		margin: 1vw 0;
-    		margin-left: 0;
-    		padding-left: 0;
-    		}
-    		.logo-footer{
-    		display: block;
-    		width: 2in;
-    		margin: 0 auto;
-    		text-align: center;
-    		}
-    		#logo-footer{
-    		width: 100%;
-    		margin: 0 auto;
-    		}
-    		#mailing-list{
-    		margin-left: 0;
-    		}
-    		.icons{
-    		padding-top: 0;
-    		}
-    		}
-    	</style> 	
-	</head>
-	<body>
-		<footer>
-			
-			<div class="footer">
-			<div class="logo-footer"><img src="logo.png" alt="logo-footer" id="logo-footer"></div>
-				<div class="footerbtns">
-				<a href="mailing-list-signup.html" id="mailing-list" class="footerbtn">Join the Mailing List!</a>
-				<a href="contact.html" class="footerbtn">Contact Us</a>
-				<a href="donate.html" class="footerbtn">Donate</a>
-				<a href="donate.html" class="footerbtn">Terms and Services</a>
-				</div>
-			<br>	
-			<div class="icons">				
-				<p id="social-media"> Join our social media! </p><br>
+<footer>
+	<div class="row">
+  		<div class="column">
+  			<div class="logo">
+  				<img src="logo.jpeg" alt="logo" id="footer-logo">
+  				<p id="footer-info">
+  					CIT is a non-profit organization. blah blah put the rest of the info here in this line. The quick brown fox jumped over the lazy dogs.
+  				</p>
+  			</div>
+  		</div>
+  		<div class="column">
+  				<form id="footer-email" action="/action_page.php">
+  					Join the mailing list!<br>
+  					<input type="email" name="email"><br>
+  					<input type="submit" value="Submit" >
+				</form>
+				<div class="icons">				
+				<p id="social-media"> Join our social media! </p>
 				<a href="https://www.facebook.com" class="iconlink"><img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" alt="Facebook Icon" class="icon"></a>
 				<a href="https://www.instagram.com" class="iconlink"><img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" alt="Instagram Icon" class="icon"></a>
 				<a href="https://www.linkedin.com" class="iconlink"><img src="http://www.clearautomation.com/wp-content/uploads/2017/08/linkedin-icon-300x300.png" alt="Linkedin Icon" class="icon"></a>
 				<a href="https://www.twitter.com" class="iconlink"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_color-512.png" alt="Twitter Icon" class="icon"></a>
-			</div>
-			<div class="copyright">
-				<p>&copy; 2020 Coding Tomorrow Initiative</p>
-			</div>
-			</div>
+				</div>
+  		</div>
+  		<div class="column, last-column">
+  			<h2>
+  				Contact Us
+  			</h2>
+  			<div class="contact-info">
+  				<p>
+  				<strong> Address: </strong> Address added here. <br>
+  				<strong> Phone: </strong> Phone added here. <br>
+  				<strong> Email: </strong> Email added here. <br>
+  				<a href="#">Donate</a><br>
+  				<a href="#">Terms and Services</a>
+  				</p>	
+  			<p id="copyright">
+			&copy; 2020 Coding Initiative Tomorrow
+			</p>
+  			</div>
+  			</div>			
+	</div>	
 		</footer>
 	</body>
 </html>
