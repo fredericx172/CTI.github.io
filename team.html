@@ -3,9 +3,50 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="team.css">
+        <link rel="stylesheet" href="team.css"> 
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Coding Tomorrow Initiative</title>
     </head>
     <body>
+        
+         <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+	</script>
+        
+	<header>
+	<a href="index.html"><img src="logo.jpeg" id="logo"></a>
+	<div class="topnav" id="myTopnav">
+	<nav class="cl-effect-1">
+	  <a href="Donations.html" class="active">Donate</a>
+	    <a href="contact-us.html">Contact</a>
+	      <div class="dropdown">
+      <button class="dropbtn">Get Involved
+	      <i class="fa fa-caret-down"></i>
+	    </button>
+	    <div class="dropdown-content">
+	      <a href="volunteer_form.html">Volunteer</a>
+	      <a href="#">Department Application</a>
+	      <a href="#">Start a New Chapter</a>
+      </div>
+	  </div>
+	  <a href="#">News</a>
+	  <a href="#">Chapters</a>
+		</nav>
+	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">☰</a>
+	</div>
+	</header>
+
+        
+        
         <section id="team" class="team content-section">
             <div class="container">
               <div class="row text-center">
@@ -115,5 +156,50 @@
               </div><!-- /.row -->
             </div><!-- /.container -->
           </section><!-- /.our-team -->
+        
+        <footer>
+	<div class="row">
+  		<div class="column">
+  			<div class="logo">
+  				<img src="logo.jpeg" alt="logo" id="footer-logo">
+  				<p id="footer-info">
+  					Coding Tomorrow is a 501(c)(3) Non-Profit organization initiated by high school students in the Bay Area. Our purpose is to increase technological literacy and promote important programming skills. In a world where technology is expanding to all aspects of our lives, especially our economic future, it is essential that no one is left behind. We seek to educate, enable, and build each and every one of our community members --- starting with our youths with computer knowledge. We believe that every person has a right of access to the internet and to be educated on the matters of such.
+  				</p>
+  			</div>
+  		</div>
+  		<div class="column">
+  				<form id="footer-email" action="/action_page.php">
+  					Join the mailing list!<br>
+  					<input type="email" name="email"><br>
+  					<input type="submit" value="Submit" >
+				</form>
+				<div class="icons">				
+				<p id="social-media"> Join our social media! </p>
+				<a href="https://www.facebook.com" class="iconlink"><img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" alt="Facebook Icon" class="icon"></a>
+				<a href="https://www.instagram.com" class="iconlink"><img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" alt="Instagram Icon" class="icon"></a>
+				<a href="https://www.linkedin.com" class="iconlink"><img src="http://www.clearautomation.com/wp-content/uploads/2017/08/linkedin-icon-300x300.png" alt="Linkedin Icon" class="icon"></a>
+				<a href="https://www.twitter.com" class="iconlink"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_color-512.png" alt="Twitter Icon" class="icon"></a>
+				</div>
+  		</div>
+  		<div class="column, last-column">
+  			<h2>
+  				Contact Us
+  			</h2>
+  			<div class="contact-info">
+  				<p>
+  				<strong> Address: </strong> Address added here. <br>
+  				<strong> Phone: </strong> Phone added here. <br>
+  				<strong> Email: </strong> Email added here. <br>
+  				<a href="#">Donate</a><br>
+  				<a href="#">Terms and Services</a>
+  				</p>	
+  			<p id="copyright">
+			&copy; 2020 Coding Initiative Tomorrow
+			</p>
+  			</div>
+  			</div>			
+	</div>	
+</footer>
+        
     </body>
 </html>
