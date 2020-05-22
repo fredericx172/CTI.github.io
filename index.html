@@ -50,13 +50,14 @@
 	    </style>
     </head>
 	
-    <body>
+    <body class="loader">
     <div class="loader-wrapper" style="z-index: 99999999;">
       <span class="loader"><span class="loader-inner"></span></span>
     </div>
     <script>
         $(window).on("load",function(){
-          $(".loader-wrapper").fadeOut("slow");
+          $(".loader-wrapper").fadeOut("slow", function() {
+      $('body').removeClass('loading');
         });
     </script>
 	    
