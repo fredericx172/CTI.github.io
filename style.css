@@ -57,9 +57,8 @@ z-index: 9999;
 #logo {
 	float: left;
 	width: 15vw;
-	min-width: 1.5in;
 	margin: 0;
-	border-left:
+	vertical-align: middle;
 	}
 
 .topnav a {
