@@ -525,7 +525,7 @@ z-index: 9999;
 .footer-top a:hover, a:focus { color: #000; border: 0; text-decoration: none; }
 .footer-top h3 { padding-bottom: 10px; color: #081859; font-family: 'Lato';}
 
-.footer-about img.logo-footer { max-width: 150px; margin-top: 0; margin-bottom: 18px; }
+.footer-about img.logo-footer { max-width: 100px; margin-top: 0; margin-bottom: 18px; }
 
 .footer-contact p { word-wrap: break-word; }
 .footer-contact i { padding-right: 10px; font-size: 18px; color: #000; color: rgba(255, 255, 255, 0.5); }
