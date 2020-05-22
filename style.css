@@ -493,7 +493,7 @@ z-index: 9999;
     text-decoration: none;
     font-family: "Lato", sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 70px;
     padding-top: 5vw;
 }
 .abtus{
@@ -503,7 +503,6 @@ z-index: 9999;
 }
 #abtus-1{
 	float: right;
-	padding-left: 30vw;
 	}
 #abtus-1, #abtushead1{
 	text-align: right;
