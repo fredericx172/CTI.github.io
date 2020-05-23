@@ -534,7 +534,7 @@ z-index: 9999;
 }
 
 /*ABOUT US SECTION END*/
-
+/*
 .container {
   height: 100%;
   width: 100%;
@@ -563,7 +563,7 @@ z-index: 9999;
 }
 .container p span.cursor.typing {
   animation: none;
-}
+}*/
 @keyframes blink {
   0%  { background-color: gold; }
   49% { background-color: gold; }
