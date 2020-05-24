@@ -47,30 +47,11 @@
   align-items: center;
   height: 100%;
 }
-	.scroll-wrapper {
-  width: 100vw;
-  height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden; 
-  perspective: 1px;
-  transform-style: preserve-3d
-}
-	.scroll-wrapper2 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: -10px;
-  margin:0;
-  padding:0;
-  transform: translateZ(-1px)  scale(2);
-}
+
 	    </style>
     </head>
 	
     <body class="loading">
-	<div class="scroll-wrapper">
-	<div class="scroll-wrapper2">
     <div class="loader-wrapper" style="z-index: 99999999;">
       <span class="loader"><span class="loader-inner"></span></span>
     </div>
@@ -311,7 +292,5 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
         <script src="js/wow.min.js"></script>
         <script src="js/retina-1.1.0.min.js"></script>
         <script src="js/scripts.js"></script>
-		</div>
-	    </div>
     </body>
 </html>
