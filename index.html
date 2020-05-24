@@ -9,16 +9,9 @@
         <link rel="stylesheet" href="animate.css">
         <link rel="stylesheet" href="media-queries.css">
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.scrollSpeed/1.0.2/jQuery.scrollSpeed.min.js"></script>
         <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Coding Tomorrow Initiative</title>
-	<script>    
-	  $(function() {  
-    jQuery.scrollSpeed(100, 80);
-});
-	    </script>	
-	    
+        <title>Coding Tomorrow Initiative</title>    
 	<style>
 		.first {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -37,7 +30,7 @@
 		background-position: 0% 50%;
 	}
 }
-		.cursor{
+	.cursor{
   animation: flash 0.5s none infinite alternate;
 }
 @keyframes flash{
@@ -48,17 +41,36 @@
     opacity: 0;
   }
 }
-		.center {
+	.center {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
+	.scroll-wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden; 
+  perspective: 1px;
+  transform-style: preserve-3d
+}
+	.scroll-wrapper2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -10px;
+  margin:0;
+  padding:0;
+  transform: translateZ(-1px)  scale(2);
+}
 	    </style>
     </head>
 	
     <body class="loading">
-	    
+	<div class="scroll-wrapper">
+	<div class="scroll-wrapper2">
     <div class="loader-wrapper" style="z-index: 99999999;">
       <span class="loader"><span class="loader-inner"></span></span>
     </div>
@@ -291,14 +303,15 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
 	        	</div>
 	        </div>
         </footer>
-
-       <!--  <script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/jquery.backstretch.min.js"></script>
-        <script src="js/jquery-migrate-3.0.0.min.js"></script> -->
+        <script src="js/jquery-migrate-3.0.0.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/retina-1.1.0.min.js"></script>
         <script src="js/scripts.js"></script>
+		</div>
+	    </div>
     </body>
 </html>
