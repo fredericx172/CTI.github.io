@@ -589,4 +589,54 @@ z-index: 9999;
 		background-position: 0% 50%;
 	}
 }
-	
+	.vol-form{
+width: 50%;
+margin: auto;
+font-size: 20px;
+font-family: "Lato", Arial, sans-sarif;
+}
+.vol-input{
+border: 2px gray solid;
+}
+.large-input{
+height: 1.5in;
+width: 100%;
+font-size: 20px;
+border: 2px gray solid;
+}
+.vol-input{
+width: 48%;
+border: 2px gray solid;
+color: #adadad;
+}
+.last-name{
+float: right;
+}
+#vol-sub{
+height: 50px;
+width: 50%;
+margin-top: 10px;
+margin-left: 25%;
+font-size: 20px;
+border: 2px gray solid;
+}
+#vol-sub:hover{
+background-color: #a29cd9;
+}
+.email{
+width: 100%;
+border: 2px gray solid;
+color: #adadad;
+}
+@media screen and (max-width: 1025px) {
+  .vol-form{
+	width: 80%;
+}
+.vol-input{
+font-size: 18px;
+}
+#vol-title{
+padding-left: 0;
+text-align: center;
+}
+}
