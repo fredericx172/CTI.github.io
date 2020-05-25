@@ -477,7 +477,7 @@ z-index: 9999;
 
 /*ABOUT US SECTION START*/
 #aboutus{
-    background-color: #525EAB;
+    background-color: #53A2BE;
     height: 100vh;
     padding: 35px;
 }
@@ -485,7 +485,7 @@ z-index: 9999;
     text-align: center;
     text-decoration: none;
     font-family: "Lato", sans-serif;
-    color: white;
+    color: #FB3640;
     font-size: 70px;
     padding-top: 5vw;
 }
@@ -506,7 +506,7 @@ z-index: 9999;
 .about-head{
 	font-size: 30px;
 	font-family: "Lato", sans-serif;
-	color: white;
+	color: #081859;
 	}
 @media only screen and (max-device-width: 1025px) {
 
