@@ -32,3 +32,45 @@ button {
 #name, #email {
   width: 50%;
 }
+
+.con-form{
+width: 50%;
+margin: auto;
+font-size: 20px;
+font-family: "Lato", Arial, sans-sarif;
+}
+.large-input{
+height: 1.5in;
+width: 100%;
+font-size: 20px;
+border: 2px gray solid;
+}
+.con-input{
+width: 48%;
+border: 2px gray solid;
+color: #adadad;
+font-size: 18px;
+}
+.last-name{
+float: right;
+}
+#con-sub{
+height: 50px;
+width: 50%;
+margin-top: 10px;
+margin-left: 25%;
+font-size: 20px;
+border: 2px gray solid;
+}
+#con-sub:hover{
+background-color: #a29cd9;
+}
+.email{
+width: 100%;
+border: 2px gray solid;
+color: #adadad;
+}
+@media screen and (max-width: 1025px) {
+  .vol-form{
+	width: 80%;
+}
