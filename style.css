@@ -527,36 +527,6 @@ z-index: 9999;
 }
 
 /*ABOUT US SECTION END*/
-/*
-.container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-.container p {
-  font-size: 3rem;
-  padding: 0.5rem;
-  font-weight: thin;
-  letter-spacing: 0.1rem;
-  text-align: left;
-  overflow: hidden;
-}
-.container p span.typed-text {
-  font-weight: thin;
-  color: gold;
-}
-.container p span.cursor {
-  display: inline-block;
-  background-color: #ccc;
-  margin-left: 0.1rem;
-  width: 3px;
-  animation: blink 1s infinite;
-}
-.container p span.cursor.typing {
-  animation: none;
-}*/
 @keyframes blink {
   0%  { background-color: gold; }
   49% { background-color: gold; }
@@ -581,54 +551,4 @@ z-index: 9999;
 		background-position: 0% 50%;
 	}
 }
-	.vol-form{
-width: 50%;
-margin: auto;
-font-size: 20px;
-font-family: "Lato", Arial, sans-sarif;
-}
-.vol-input{
-border: 2px gray solid;
-}
-.large-input{
-height: 1.5in;
-width: 100%;
-font-size: 20px;
-border: 2px gray solid;
-}
-.vol-input{
-width: 48%;
-border: 2px gray solid;
-color: #adadad;
-}
-.last-name{
-float: right;
-}
-#vol-sub{
-height: 50px;
-width: 50%;
-margin-top: 10px;
-margin-left: 25%;
-font-size: 20px;
-border: 2px gray solid;
-}
-#vol-sub:hover{
-background-color: #a29cd9;
-}
-.email{
-width: 100%;
-border: 2px gray solid;
-color: #adadad;
-}
-@media screen and (max-width: 1025px) {
-  .vol-form{
-	width: 80%;
-}
-.vol-input{
-font-size: 18px;
-}
-#vol-title{
-padding-left: 0;
-text-align: center;
-}
-}
+	
