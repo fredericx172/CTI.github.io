@@ -55,33 +55,33 @@ function myFunction() {
        </p>
    </aside>
 
-<div padding-bottom: 1in;>
+<div class="modCont">
   <form class="gform con-form" method="POST" data-email="example@email.net"
   action="https://script.google.com/a/codingtomorrow.org/macros/s/AKfycbxWkhFRyzz8lEqRMBvcxNUuySRFSrjAyoX_y4rq/exec">
 
-    <div class="form-elements">
+    <div>
       <fieldset>
         <label class="wow animated fadeInLeft" for="name">Name: </label>
-        <input class="con-input wow animated fadeInRight" id="name" name="name" placeholder="Jane Doe" />
+        <input class="wow animated fadeInRight" type="text" tabindex="1" required autofocus name="name" placeholder="Jane Doe" />
       </fieldset>
 
         <fieldset>
         <label class="wow animated fadeInLeft" for="color">Phone Number: </label>
-        <input class="con-input wow animated fadeInRight" id="color" name="phonenumber" placeholder="(XXX) XXX-XXXX " />
+        <input class=" wow animated fadeInRight" type="tel" tabindex="2"required name="phonenumber" placeholder="(XXX) XXX-XXXX " />
       </fieldset>
         
          <fieldset>
         <label class="wow animated fadeInLeft" for="email">Email Address:</label>
-        <input class="email wow animated fadeInRight" id="email" name="email" type="email" value=""
+        <input class="email wow animated fadeInRight" type="email" tabindes="3" required name="email" type="email" value=""
         required placeholder="example@cti.com"/>
       </fieldset>
          
       <fieldset>
         <label class="wow animated fadeInLeft" for="message">Message: </label>
-        <textarea class="large-input wow animated fadeInRight" id="message" name="message" rows="10"
+        <textarea class="wow animated fadeInRight" name="message" tabindex="4" required
         placeholder="Tell us what's on your mind..."></textarea>
       </fieldset>
-<button class="button-success wow animated fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+<button class="wow animated fadeInUp animated" id="contact-submit" style="visibility: visible; animation-name: fadeInUp;">
         <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
 	    </div>
 
