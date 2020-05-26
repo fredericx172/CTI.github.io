@@ -47,47 +47,49 @@ function myFunction() {
 	</div>
 	</header>
 	
-  <h2 class="content-head is-center">Contact Us!</h2>
+  <h2 class="con-title wow animated fadeInUp">Contact Us!</h2>
   <aside>
-       <p>
-           We would <em>love</em> to hear from you! </p>
-           <p>Please use the <b><em>Contact Form</em></b>
-           to send us a message.
+       <p class="wow animated fadeInDown">
+           We would love to hear from you! </p>
+           <p class="wow animated fadeInDown">Please use the Contact Form to send us a message.
        </p>
    </aside>
 
 
-  <form class="gform" method="POST" data-email="example@email.net"
+  <form class="gform con-form" method="POST" data-email="example@email.net"
   action="https://script.google.com/a/codingtomorrow.org/macros/s/AKfycbxWkhFRyzz8lEqRMBvcxNUuySRFSrjAyoX_y4rq/exec">
 
     <div class="form-elements">
-      <fieldset class="pure-group">
+      <fieldset class="con-input wow animated fadeInUp">
         <label for="name">Name: </label>
         <input id="name" name="name" placeholder="Your Name" />
       </fieldset>
 
-        <fieldset class="pure-group">
+        <fieldset class="con-input wow animated fadeInUp">
         <label for="color">Phone Number: </label>
         <input id="color" name="phonenumber" placeholder="Your " />
       </fieldset>
         
-         <fieldset class="pure-group">
+         <fieldset class="email wow animated fadeInUp">
         <label for="email">Email Address:</label>
         <input id="email" name="email" type="email" value=""
         required placeholder="your.name@email.com"/>
       </fieldset>
          
-      <fieldset class="pure-group">
+      <fieldset class="large-input wow animated fadeInUp">
         <label for="message">Message: </label>
         <textarea id="message" name="message" rows="10"
         placeholder="Tell us what's on your mind..."></textarea>
       </fieldset>
       
-      <button class="button-success">
+      <!--<button class="button-success">
+        <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+    </div>-->
+	  <button class="con-sub wow animated fadeInUp">
         <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
     </div>
 
-    <div class="thankyou_message" style="display:none;">
+    <div class="thankyou_message wow animated fadeInUp" style="display:none;">
       <h2>Thanks for contacting us!
         We will get back to you soon!</h2>
     </div>
