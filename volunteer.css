@@ -213,6 +213,13 @@ font-size: 20px;
 color: gray;
 border: 2px gray solid;
 }
+#name{
+width: 45%;
+height: 50px;
+font-size: 20px;
+color: gray;
+border: 2px gray solid;
+}
 #vol-sub{
 height: 50px;
 width: 50%;
