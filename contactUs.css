@@ -4,6 +4,7 @@ aside {
     border-radius: 3px;
     color: #000;
     margin-bottom: 2em;
+    text-align: center;
 }
 
 .content-head {
@@ -16,10 +17,15 @@ aside {
   text-align: center;
 }
 .button-success {
-  color: white;
-  border-radius: 4px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  background: rgb(28, 184, 65); /* this is a green */
+  height: 50px;
+width: 50%;
+margin-top: 10px;
+margin-left: 25%;
+font-size: 20px;
+border: 2px gray solid;
+}
+.button-success ::hover{
+background-color: #a29cd9;
 }
 .button-xlarge {
   font-size: 125%;
@@ -33,7 +39,8 @@ button {
 
 .con-title{
 font-size: 54px;
-text-algin: center;
+text-align: center;
+color: #081859;
 }
 .con-form{
 width: 50%;
@@ -55,17 +62,6 @@ font-size: 18px;
 }
 .last-name{
 float: right;
-}
-#con-sub{
-height: 50px;
-width: 50%;
-margin-top: 10px;
-margin-left: 25%;
-font-size: 20px;
-border: 2px gray solid;
-}
-#con-sub:hover{
-background-color: #a29cd9;
 }
 .email{
 width: 100%;
