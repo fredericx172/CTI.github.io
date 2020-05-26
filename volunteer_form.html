@@ -25,7 +25,7 @@ function myFunction() {
 }
 	</script>
 	<header>    
-	<a href="index.html"><img src="logo.jpeg" id="logo"></a>
+	<a href="index.html"><img src="images/ctilogo.png" id="logo"></a>
 	<div class="topnav" id="myTopnav">
 	<nav class="cl-effect-1">
 	  <a href="#" class="active">Donate</a>
@@ -48,18 +48,16 @@ function myFunction() {
 	</header>
 <h2 id="vol-title">Volunteer Form</h2>
 <div class="vol-form">
-
-
-<form action="mailto:annachen031014@gmail.com" method="post" enctype="text/plain">
+<form class="gform" action="https://script.google.com/macros/s/AKfycbyooMLaW1HcMOLBNUoxmJxlSS7QrimSgwXnObjh-vEW0fEUCvPz/exec" method="post" enctype="text/plain">
 <div>
 	<h3>Name</h3>
-	<input type="text" name="first-name" placeholder="First Name" class="vol-input first-name" required>
-	<input type="text" name="last-name" placeholder="Last Name" class="vol-input last-name" required>
+	<input type="text" name="firstName" placeholder="First Name" class="vol-input first-name" required>
+	<input type="text" name="lastName" placeholder="Last Name" class="vol-input last-name" required>
 </div>
 <h3>Contact</h3>
-<input type="text" name="phone-number" placeholder="Phone Number" class="vol-input first-name" required>
+<input type="text" name="phonenumber" placeholder="Phone Number" class="vol-input first-name" required>
 <input type="text" name="city" placeholder="City" class="vol-input last-name" required>
-<select class="form-control" id="state" required>
+<select class="form-control" id="state" required name="state">
               <option value="" disabled selected>State</option>
               <option value="AL">Alabama</option>
               <option value="AK">Alaska</option>
@@ -115,8 +113,8 @@ function myFunction() {
 <input type="email" id="email" name="email"
   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" class="vol-input last-name" required>  
 <h3>Education</h3>
-<input type="text" name="hs" placeholder="High School" class="vol-input last-name" required>  
-<select class="form-control" id="state" required>
+<input type="text" name="highschool" placeholder="High School" class="vol-input last-name" required>  
+<select class="form-control" id="state" required name="grade">
               <option value="" disabled selected>Grade Level</option>
               <option value="9">9th</option>
               <option value="10">10th</option>
@@ -124,9 +122,9 @@ function myFunction() {
               <option value="12">12th</option>
             </select>
 <h3>About You</h3>
-<textarea name="prior-volunteer-xp" placeholder="Prior Volunteering Experience"class="large-input" required></textarea>
-<textarea name="prior-program-xp" placeholder="Do you have any prior experience with programming? If yes, please elaborate."class="large-input" required></textarea>
-<textarea name="prior-digital-xp" placeholder="Do you have any prior digital experience? (Do you have any experience interacting with the internet in ways that are not programming-involved) If yes, please elaborate."class="large-input" required></textarea>
+<textarea name="volxp" placeholder="Prior Volunteering Experience"class="large-input" required></textarea>
+<textarea name="programxp" placeholder="Do you have any prior experience with programming? If yes, please elaborate."class="large-input" required></textarea>
+<textarea name="digitalxp" placeholder="Do you have any prior digital experience? (Do you have any experience interacting with the internet in ways that are not programming-involved) If yes, please elaborate."class="large-input" required></textarea>
 <button type="submit" id="vol-sub">Submit</button>
 </form>
 </div>
