@@ -47,6 +47,7 @@ function myFunction() {
 	</div>
 	</header>
 <h2 id="vol-title">Volunteer Form</h2>
+	    
 <div class="vol-form">
 <form class="gform" action="https://script.google.com/macros/s/AKfycbyooMLaW1HcMOLBNUoxmJxlSS7QrimSgwXnObjh-vEW0fEUCvPz/exec" method="post" enctype="text/plain">
 <div>
@@ -126,50 +127,15 @@ function myFunction() {
 <textarea name="programxp" placeholder="Do you have any prior experience with programming? If yes, please elaborate."class="large-input" required></textarea>
 <textarea name="digitalxp" placeholder="Do you have any prior digital experience? (Do you have any experience interacting with the internet in ways that are not programming-involved) If yes, please elaborate."class="large-input" required></textarea>
 <button type="submit" id="vol-sub">Submit</button>
-</form>
+
+    <div class="thankyou_message" style="display:none;">
+      <h2><em>Thanks</em> for contacting us!
+        We will get back to you soon!</h2>
+    </div>
 </div>
-<footer>
-	<div class="row">
-  		<div class="column">
-  			<div class="logo">
-  				<img src="logo.jpeg" alt="logo" id="footer-logo">
-  				<p id="footer-info">
-  					CIT is a non-profit organization. blah blah put the rest of the info here in this line. The quick brown fox jumped over the lazy dogs.
-  				</p>
-  			</div>
-  		</div>
-  		<div class="column">
-  				<form id="footer-email" action="/action_page.php">
-  					Join the mailing list!<br>
-  					<input type="email" name="email"><br>
-  					<input type="submit" value="Submit" style="padding: 0;">
-				</form>
-				<div class="icons">				
-				<p id="social-media"> Join our social media! </p>
-				<a href="https://www.facebook.com" class="iconlink"><img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" alt="Facebook Icon" class="icon"></a>
-				<a href="https://www.instagram.com" class="iconlink"><img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" alt="Instagram Icon" class="icon"></a>
-				<a href="https://www.linkedin.com" class="iconlink"><img src="http://www.clearautomation.com/wp-content/uploads/2017/08/linkedin-icon-300x300.png" alt="Linkedin Icon" class="icon"></a>
-				<a href="https://www.twitter.com" class="iconlink"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_color-512.png" alt="Twitter Icon" class="icon"></a>
-				</div>
-  		</div>
-  		<div class="column, last-column">
-  			<h2>
-  				Contact Us
-  			</h2>
-  			<div class="contact-info">
-  				<p>
-  				<strong> Address: </strong> Address added here. <br>
-  				<strong> Phone: </strong> Phone added here. <br>
-  				<strong> Email: </strong> Email added here. <br>
-  				<a href="#">Donate</a><br>
-  				<a href="#">Terms and Services</a>
-  				</p>	
-  			<p id="copyright">
-			&copy; 2020 Coding Initiative Tomorrow
-			</p>
-  			</div>
-  			</div>			
-	</div>	
-</footer>
+  </form>
+
+  <script data-cfasync="false" src="js/form-submission-handler.js"></script>
+
     </body>
 </html>
