@@ -55,35 +55,25 @@ function myFunction() {
        </p>
    </aside>
 
-<div class="modCont">
-  <form class="gform con-form" method="POST" data-email="example@email.net"
-  action="https://script.google.com/a/codingtomorrow.org/macros/s/AKfycbxWkhFRyzz8lEqRMBvcxNUuySRFSrjAyoX_y4rq/exec">
-
-    <div>
-      <fieldset>
-        <label class="wow animated fadeInLeft" for="name">Name: </label>
-        <input class="wow animated fadeInRight" type="text" tabindex="1" required autofocus name="name" placeholder="Jane Doe" />
-      </fieldset>
-
-        <fieldset>
-        <label class="wow animated fadeInLeft" for="color">Phone Number: </label>
-        <input class=" wow animated fadeInRight" type="tel" tabindex="2"required name="phonenumber" placeholder="(XXX) XXX-XXXX " />
-      </fieldset>
-        
-         <fieldset>
-        <label class="wow animated fadeInLeft" for="email">Email Address:</label>
-        <input class="email wow animated fadeInRight" type="email" tabindes="3" required name="email" type="email" value=""
-        required placeholder="example@cti.com"/>
-      </fieldset>
-         
-      <fieldset>
-        <label class="wow animated fadeInLeft" for="message">Message: </label>
-        <textarea class="wow animated fadeInRight" name="message" tabindex="4" required
-        placeholder="Tell us what's on your mind..."></textarea>
-      </fieldset>
-<button class="wow animated fadeInUp animated" id="contact-submit" style="visibility: visible; animation-name: fadeInUp;">
-        <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
-	    </div>
+<div class="modCont">  
+  <form id="contact" action="https://script.google.com/a/codingtomorrow.org/macros/s/AKfycbxWkhFRyzz8lEqRMBvcxNUuySRFSrjAyoX_y4rq/exec" method="post" class="gform">
+    <fieldset>
+      <input placeholder="Your name" name="name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" name="email" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" name="phonenumber" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" name="message" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+	</form>
+</div>
 
 
     <div class="thankyou_message wow animated fadeInUp" style="display:none;">
