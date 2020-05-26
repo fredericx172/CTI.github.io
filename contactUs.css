@@ -27,7 +27,9 @@ border: 2px gray solid;
 .button-success::hover{
 background-color: #a29cd9;
 }
-
+input{
+min-width: 1.75in;
+}
 #name, #email {
   width: 50%;
 }
@@ -64,6 +66,7 @@ border: 2px gray solid;
 color: #adadad;
 }
 @media screen and (max-width: 1025px) {
-  .vol-form{
+  .con-form{
 	width: 80%;
 }
+	
