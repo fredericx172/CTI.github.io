@@ -24,15 +24,10 @@ margin-left: 25%;
 font-size: 20px;
 border: 2px gray solid;
 }
-.button-success ::hover{
+.button-success::hover{
 background-color: #a29cd9;
 }
-.button-xlarge {
-  font-size: 125%;
-}
-button {
-  float: right;
-}
+
 #name, #email {
   width: 50%;
 }
