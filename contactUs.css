@@ -1,13 +1,11 @@
 aside {
-    background: #1f8dd6; /* same color as selected state on site menu */
+    background: #fff; 
     padding: 0.3em 1em;
     border-radius: 3px;
     color: #fff;
     margin-bottom: 2em;
 }
-textarea {
-  width: 100%;
-}
+
 .content-head {
   font-weight: 400;
   text-transform: uppercase;
@@ -33,6 +31,10 @@ button {
   width: 50%;
 }
 
+.con-title{
+font-size: 54px;
+text-algin: center;
+}
 .con-form{
 width: 50%;
 margin: auto;
