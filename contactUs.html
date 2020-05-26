@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
    	<link href="style.css" rel="stylesheet">
-   	<link href="ContactUs.css" rel="stylesheet">
+   	<link href="contactUs.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
         <link href="index.js">
 	<link rel="stylesheet" href="bootstrap.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
         <link rel="stylesheet" href="animate.css">
         <link rel="stylesheet" href="media-queries.css">
-	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
         <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -58,7 +57,7 @@ function myFunction() {
    </aside>
 
 
-  <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+  <form class="gform" method="POST" data-email="example@email.net"
   action="https://script.google.com/a/codingtomorrow.org/macros/s/AKfycbxWkhFRyzz8lEqRMBvcxNUuySRFSrjAyoX_y4rq/exec">
 
     <div class="form-elements">
@@ -69,11 +68,11 @@ function myFunction() {
 
         <fieldset class="pure-group">
         <label for="color">Phone Number: </label>
-        <input id="color" name="phonenumber" placeholder="phonenumber" />
+        <input id="color" name="phonenumber" placeholder="Your " />
       </fieldset>
         
          <fieldset class="pure-group">
-        <label for="email"><em>Your</em> Email Address:</label>
+        <label for="email">Email Address:</label>
         <input id="email" name="email" type="email" value=""
         required placeholder="your.name@email.com"/>
       </fieldset>
@@ -84,12 +83,12 @@ function myFunction() {
         placeholder="Tell us what's on your mind..."></textarea>
       </fieldset>
       
-      <button class="button-success pure-button button-xlarge">
+      <button class="button-success">
         <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
     </div>
 
     <div class="thankyou_message" style="display:none;">
-      <h2><em>Thanks</em> for contacting us!
+      <h2>Thanks for contacting us!
         We will get back to you soon!</h2>
     </div>
 
