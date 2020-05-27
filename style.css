@@ -200,7 +200,7 @@ z-index: 9999;
 }
 
 @media screen and (max-width: 6in) {
-  .topnav a, .dropdown .dropbtn {
+  .topnav a, .dpd .dropbtn {
     display: none;
   }
   .topnav a.icon {
