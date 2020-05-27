@@ -209,14 +209,17 @@ float: right;
 }
 #state{
 width: 45%;
-height: 50px;
+height: auto;
+margin-right: 0;
+margin-top: 5px;
 font-size: 20px;
 color: gray;
 border: 2px gray solid;
 }
 #name{
 width: 45%;
-height: 50px;
+margin-top: 5px;
+height: auto;
 font-size: 20px;
 color: gray;
 border: 2px gray solid;
