@@ -199,7 +199,7 @@ z-index: 9999;
   display: block;
 }
 
-@media screen and (max-width: 6in) {
+@media screen and (max-width: 870px) {
   .topnav a, .dpd .dropbtn {
     display: none;
   }
@@ -209,7 +209,7 @@ z-index: 9999;
   }
 }
 
-@media screen and (max-width: 6in) {
+@media screen and (max-width: 870px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -484,7 +484,9 @@ z-index: 9999;
 @media screen and (max-width: 525px) {
   #aboutus {
     height: 100%;
-	}}
+	}
+
+}
 .aboutus-title{
     text-align: center;
     text-decoration: none;
@@ -512,15 +514,13 @@ z-index: 9999;
 	font-family: "Lato", sans-serif;
 	color: #081859;
 	}
-	/*
+	
+.aboutus-info{
+    padding-right: 10%;
+    padding-left: 10%;
+}
 @media only screen and (max-device-width: 1025px) {
 
-.aboutus-title{
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    height: 30px;
-}
 .aboutus-info{
     text-align: justify;
     text-decoration: none;
@@ -528,9 +528,11 @@ z-index: 9999;
     color: black;
     font-size: 18px;
     margin: 0;
-    padding: 0;
+    padding-bottom: 5vw;
+    padding-right: 0;
+    padding-left: 0;
 }
-*/
+}
 /*ABOUT US SECTION END*/
 @keyframes blink {
   0%  { background-color: gold; }
