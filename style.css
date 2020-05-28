@@ -481,6 +481,10 @@ z-index: 9999;
     height: 100vh;
     padding: 35px;
 }
+@media screen and (max-width: 525px) {
+  #aboutus {
+    height: 100%;
+  }
 .aboutus-title{
     text-align: center;
     text-decoration: none;
@@ -508,6 +512,7 @@ z-index: 9999;
 	font-family: "Lato", sans-serif;
 	color: #081859;
 	}
+	/*
 @media only screen and (max-device-width: 1025px) {
 
 .aboutus-title{
@@ -525,7 +530,7 @@ z-index: 9999;
     margin: 0;
     padding: 0;
 }
-
+*/
 /*ABOUT US SECTION END*/
 @keyframes blink {
   0%  { background-color: gold; }
