@@ -484,7 +484,7 @@ z-index: 9999;
 @media screen and (max-width: 525px) {
   #aboutus {
     height: 100%;
-  }
+	}}
 .aboutus-title{
     text-align: center;
     text-decoration: none;
