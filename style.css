@@ -519,7 +519,7 @@ z-index: 9999;
     padding-right: 10%;
     padding-left: 10%;
 }
-@media only screen and (max-device-width: 1025px) {
+@media only screen and (max-device-width: 530px) {
 
 .aboutus-info{
     text-align: justify;
