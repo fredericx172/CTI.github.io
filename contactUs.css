@@ -50,7 +50,7 @@ color: #fff;
 	font-weight: 400;
 }
 
-#contact h4 {
+#contact h5 {
 	margin:5px 0 15px;
 	display:block;
 	font-size:13px;
@@ -111,15 +111,15 @@ fieldset {
 	border:1px solid #999;
 }
 ::-webkit-input-placeholder {
- color:#6C0E23;
+ color:#000;
 }
 :-moz-placeholder {
- color:#6C0E23;
+ color:#000;
 }
 ::-moz-placeholder {
- color:#6C0E23;
+ color:#000;
 }
 :-ms-input-placeholder {
- color:#6C0E23;
+ color:#000;
 }
 
