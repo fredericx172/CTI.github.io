@@ -167,11 +167,13 @@ position: sticky;
 /*Beginning of Volunteer Form*/
 #vol-title{
 font-size: 50px;
-background-color: #525EAB;
+background-color: #FB3640;
 width: 100%;
 padding-left: 25%;
-padding-bottom: 40px;
+padding-bottom: 20px;
+padding-top: 20px;
 margin: 0;
+text-align: center;
 }
 h3{
 margin-bottom: 5px;
@@ -181,9 +183,11 @@ width: 50%;
 margin: auto;
 font-size: 20px;
 font-family: "Lato", Arial, sans-sarif;
+padding-bottom: 0.5in;
 }
 .vol-input{
 border: 2px gray solid;
+height: 40px;
 }
 .large-input{
 height: 1.5in;
@@ -195,6 +199,7 @@ border: 2px gray solid;
 text-align: center;
 display: block;
 transform: scale(2);
+hei
 }
 .name{
 width: 100%;
@@ -202,27 +207,29 @@ width: 100%;
 .vol-input{
 width: 45%;
 border: 2px gray solid;
-color: #adadad;
+color: #081859;
 }
 .last-name{
 float: right;
 }
 #state{
 width: 45%;
-height: auto;
+height: 40px;
 margin-right: 0;
 margin-top: 5px;
 font-size: 20px;
 color: gray;
 border: 2px gray solid;
+float: right;
 }
 #name{
 width: 45%;
 margin-top: 5px;
-height: auto;
+height: 40px;
 font-size: 20px;
 color: gray;
 border: 2px gray solid;
+float: right;
 }
 #vol-sub{
 height: 50px;
