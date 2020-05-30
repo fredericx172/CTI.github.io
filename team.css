@@ -42,7 +42,9 @@ h6 {
   margin: 15px 0;
   padding: 0;
 }
-
+.team-member i {
+ color: #FB3640;
+}
 .team-member figure {
   position: relative;
   overflow: hidden;
@@ -103,8 +105,8 @@ h6 {
 .team-member figure:hover figcaption {
   visibility: visible;
   color: white;
-  background: blue;
-  /* Primary color, can be changed via colors.css */
+  background: #53A2BE;
+
   
   height: 100%;
   -webkit-transition: all 0.3s ease-in-out;
