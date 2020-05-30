@@ -47,19 +47,19 @@ function myFunction() {
 	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">☰</a>
 	</div>
 	</header>
-<h2 id="vol-title">Volunteer Form</h2>
+<h2 id="vol-title wow animated fadeInDown">Volunteer Form</h2>
 	    
 <div class="vol-form">
 <form class="gform" action="https://script.google.com/macros/s/AKfycbyooMLaW1HcMOLBNUoxmJxlSS7QrimSgwXnObjh-vEW0fEUCvPz/exec" method="post" enctype="text/plain">
 <div>
 	<h3>Name</h3>
-	<input type="text" name="firstName" placeholder="First Name" class="vol-input first-name" required>
-	<input type="text" name="lastName" placeholder="Last Name" class="vol-input last-name" required>
+	<input type="text" name="firstName" placeholder="First Name" class="vol-input first-name wow animated fadeInRight" required>
+	<input type="text" name="lastName" placeholder="Last Name" class="vol-input last-name wow animated fadeInLeft" required>
 </div>
 <h3>Contact</h3>
-<input type="text" name="phonenumber" placeholder="Phone Number" class="vol-input first-name" required>
-<input type="text" name="city" placeholder="City" class="vol-input last-name" required>
-<select class="form-control" id="state" required name="state">
+<input type="text" name="phonenumber" placeholder="Phone Number" class="vol-input first-name wow animated fadeInRight" required>
+<input type="text" name="city" placeholder="City" class="vol-input last-name wow animated fadeInLeft" required>
+<select class="form-control wow animated fadeInRight" id="state" required name="state">
               <option value="" disabled selected>State</option>
               <option value="AL">Alabama</option>
               <option value="AK">Alaska</option>
@@ -113,10 +113,10 @@ function myFunction() {
               <option value="WY">Wyoming</option>
             </select>
 <input type="email" id="email" name="email"
-  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" class="vol-input last-name" required>  
+  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" class="vol-input last-name wow animated fadeInLeft" required>  
 <h3>Education</h3>
-<input type="text" name="highschool" placeholder="High School" class="vol-input last-name" required>  
-<select class="form-control" id="name" required name="grade">
+<input type="text" name="highschool" placeholder="High School" class="vol-input last-name wow animated fadeInLeft" required>  
+<select class="form-control wow animated fadeInRight" id="name" required name="grade">
               <option value="" disabled selected>Grade Level</option>
               <option value="9">9th</option>
               <option value="10">10th</option>
@@ -124,10 +124,10 @@ function myFunction() {
               <option value="12">12th</option>
             </select>
 <h3>About You</h3>
-<textarea name="volxp" placeholder="Prior Volunteering Experience"class="large-input" required></textarea>
-<textarea name="programxp" placeholder="Do you have any prior experience with programming? If yes, please elaborate."class="large-input" required></textarea>
-<textarea name="digitalxp" placeholder="Do you have any prior digital experience? (Do you have any experience interacting with the internet in ways that are not programming-involved) If yes, please elaborate."class="large-input" required></textarea>
-<button type="submit" id="vol-sub">Submit</button>
+<textarea name="volxp" placeholder="Prior Volunteering Experience"class="large-input wow animated fadeInUp" required></textarea>
+<textarea name="programxp" placeholder="Do you have any prior experience with programming? If yes, please elaborate."class="large-input wow animated fadeInUp" required></textarea>
+<textarea name="digitalxp" placeholder="Do you have any prior digital experience? (Do you have any experience interacting with the internet in ways that are not programming-involved) If yes, please elaborate."class="large-input wow animated fadeInUp" required></textarea>
+<button class="wow animated fadeInUp" type="submit" id="vol-sub">Submit</button>
 
     <div class="thankyou_message wow animated fadeInUp" style="display:none;">
       <h2 style="font-family: 'Lato'; color: #081859;">Thanks for submiting the volunteer form!
