@@ -106,8 +106,7 @@ h6 {
   visibility: visible;
   color: white;
   background: #53A2BE;
-
-  
+  opacity: 96%;
   height: 100%;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
