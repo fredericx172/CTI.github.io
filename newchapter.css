@@ -1,0 +1,76 @@
+@font-face{
+font-family: Lato;
+src: url(https://fonts.googleapis.com/css?family=Lato&display=swap);
+       }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", Arial, sans-sarif;
+}
+
+
+/*Beginning of New Chapter*/
+#vol-title{
+font-size: 50px;
+background-color: #525EAB;
+width: 79vw;
+padding-left: 20%;
+padding-bottom: 40px;
+font-family: times new roman;
+}
+#question{
+margin-bottom: 5px;
+font-size: 35px;
+margin-left: 20%;
+margin-top: 20px;
+display: block;
+}
+.boxes{
+margin-bottom: 250px;
+}
+#left-text{
+width: 25%;
+height: 200px;
+border: 3px black solid;
+font-size: 20px;
+margin-left: 20%;
+display: inline;
+float: left;
+}
+
+#right-text{
+width: 25%;
+height: 200px;
+border: 3px black solid;
+font-size: 20px;
+margin-right: 20%;
+float: right;
+display: inline;
+}  
+.contact-list{
+font-size: 20px;
+line-height: 2;
+width: 40%;
+margin-left: 20%;
+margin-bottom: 80px;} 
+
+.list-header{
+margin-bottom: 5px;
+font-size: 35px;
+margin-top: 20px;
+display: block;
+background-color: red;
+margin-left: 20%;
+}
+
+/*something that makes hover change? idk how to use it tho? found it on the internet oops
+.text a p.new-label span:after{
+  position: relative;
+  content: 'NEW'
+}
+.text:hover a p.new-label span:after {
+  content: 'ADD';
+}
+*/
+/*End of Contact Us*/
+
