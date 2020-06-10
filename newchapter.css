@@ -30,27 +30,27 @@ color: #fff;
 #q{
 font-size: 35px;
 display: block;
-height: 200px;
 color: white;
-}
-#q:hover{
-display:none;
 }
 #hbox{
 border: 3px black solid;
+height: 200px;
 background-color: black;
 }
 #hbox:hover{
+display:none;
+}
+#ans{
 border: 3px black solid;
 background-color: white;
+height: 200px;
+display:none;
+}
+#ans:hover{
+display: block;
 }
 #a{
 font-size: 18px;
-display: none;
-height: 200px;
-color: black;
-}
-#a:hover{
 display: block;
 color: black;
 }
