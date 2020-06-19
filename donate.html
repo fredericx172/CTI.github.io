@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html>
-    <head>
-	    <link rel="shortcut icon" href="images/favicon.png" />
-	<link href="volunteer.css" rel="stylesheet">
+<html><head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;display=swap" rel="stylesheet">
+	    <link rel="shortcut icon" href="images/favicon.png">
 	<link href="style.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap" rel="stylesheet">
         <link href="index.js">
 	<link rel="stylesheet" href="bootstrap.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
@@ -13,13 +12,42 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
         <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<title>Donate|Coding Tomorrow Initiative</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Donate|Coding Tomorrow Initiative</title>
+    <style>
+        .lft{
+            background-size: cover;
+            background-image: url(teamSection.jpg);
+            background-position: -150px;
+        }
+
+        .rt{
+            background-size: cover;
+            background-image:url(newshomepagebackground.jpg);
+            background-position: bottom;
+        }
+
+        #vol-title {
+            font-size: 60px;
+            background-color: #FFF;
+            width: 100%;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            margin: 0;
+            text-align: center;
+            color: #FB3640;
+            font-family: 'Lato';
+        }   
+
+        .invt{
+            color:#FFF;
+            background-color: #081859;
+        }
+    </style>
     </head>
     
     <body>
-    <script
-    src="https://www.paypal.com/sdk/js?client-id=AQ65bSjIOXnkkqV_CjInPamj4DUStNnd44vG1M7QVZK9xmxLhtW3-HbriOheUPzkA3sdLRLql642_Rzk">
+    <script src="https://www.paypal.com/sdk/js?client-id=AQ65bSjIOXnkkqV_CjInPamj4DUStNnd44vG1M7QVZK9xmxLhtW3-HbriOheUPzkA3sdLRLql642_Rzk">
   </script>
 	 <script>
 function myFunction() {
@@ -53,13 +81,32 @@ function myFunction() {
 	</div>
 	</header>
 <h2 id="vol-title">Donate</h2>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-<input type="hidden" name="cmd" value="_s-xclick" />
-<input type="hidden" name="hosted_button_id" value="ADMSBNYQE6G62" />
-<input type="image" src="images/donate.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-</form>
 
+	    <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-0 col-sm-3 lft"></div>
+            <div class="col-sm-6">
+                <h1 color="#081859" style="font-family: 'Lato'; color: #081859;" class="wow animated fadeInUp">Why Coding Tomorrow Initiative?</h1>
+                <h4 class="wow animated fadeInUp" style="font-family: 'Lato';font-weight: 300;line-height: 1.4;"> 
+                    As a <span class="invt">student run organization,</span> our main priority is dedicating <span class="invt">100%</span> of donation funds to our operations or reserves. Our organization relies on the compassion of our volunteers in bringing digital education to <span class="invt">technologically marginalized communities.</span> Your donation will make a greater impact in all of our communities. Additionally, the top five donators will be shown in our donations page as a gesture of our appreciation.
+                    <br><br>
+                    Once more, we cannot thank you enough for your generous financial support, and <span class="invt">appreciate your willingness to invest in our future.</span>
+                </h4>
+                <div class="row">
+                    <div class="col-xs-1 col-sm-4 "></div>
+                    <div class="col-xs-10 col-sm-4 ">
+    <form action="https://www.paypal.com/cgi-bin/webscr" class="wow animated fadeInUp" method="post" target="_blank">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="ADMSBNYQE6G62">
+    <input type="image" src="images/donate.png" border="0" name="submit" title="PayPal x Coding Tomorrow Initiative" alt="Donate with PayPal button">
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" hidden="" style="display: none !important;">
+    </form> </div>
+ <div class="col-xs-1 col-sm-4 "></div>
+        </div>
+    </div>
+<div class="col-xs-0 col-sm-3 rt"></div>
+</div>
+</div>
 
  <!-- Footer -->
        <footer>
@@ -67,7 +114,7 @@ function myFunction() {
 		        <div class="container">
 		        	<div class="row">
 		        		<div class="col-md-4 col-lg-3 footer-about wow fadeInUp">
-		        			<img class="logo-footer" src="http://sandbox.codingtomorrow.org/images/ctilogo.png" alt="logo-footer" >
+		        			<img class="logo-footer" src="http://sandbox.codingtomorrow.org/images/ctilogo.png" alt="logo-footer">
 		        			<p style="font-size: 12px;">
 		        				Our purpose is to increase technological literacy and promote important programming skills. In a world where technology is expanding to all aspects of our lives, especially our economic future, it is essential that no one is left behind. We seek to educate, enable, and build each and every one of our community members --- starting with our youths with computer knowledge. We believe that every person has a right of access to the internet and to be educated on the matters of such.
 		        			</p>
@@ -104,7 +151,7 @@ function myFunction() {
 	        	<div class="container">
 	        		<div class="row">
 	           			<div class="col-md-6 footer-copyright">
-	                    	&copy; Coding Tomorrow Initiative. We are a 501(c)(3) Non-Profit organization.
+	                    	© Coding Tomorrow Initiative. We are a 501(c)(3) Non-Profit organization.
 	                    </div>
 	           			<div class="col-md-6 footer-social">
 	                    	<a href="#"><i class="fab fa-facebook"></i></a> 
@@ -122,5 +169,6 @@ function myFunction() {
         <script src="js/wow.min.js"></script>
         <script src="js/retina-1.1.0.min.js"></script>
         <script src="js/scripts.js"></script>
-    </body>
-</html>
+    
+
+</body></html>
