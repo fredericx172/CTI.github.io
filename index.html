@@ -14,12 +14,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Coding Tomorrow Initiative</title>    
 	<style>
-		.first {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
-}
-
+	@media screen and (max-width: 768px){
+    .mb{
+      height: 300px;
+    }
+  }
 		@keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -90,16 +89,22 @@ function myFunction() {
 	 		</div>
 	 		 <a href="#">News</a>
 	  		<a href="chapters.html">Chapters</a>
-			<img src="images/ctilogo.png" id="logo">
-		</nav>
+			 <img src="images/ctilogo.png" id="logo"> 
+    </nav>
 	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">☰</a>
 	</div>
 	</header>
-
-	<div class="first" style="height: 90vh; width:100%; text-align:center;">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-7"><img src="images/landing.png" height="auto" width="100%"></div>
+    <div class="col-sm-5">
+	  <div style="height: 100%; width:100%; text-align:center;">
 		<div class="center">
-    <h1 style="margin: 0; color: gold; font-family: Lato; text-align:center; font-size: 48px;">We <span class="typed-text"></span><span class="cursor">|</span></h1>
-		</div></div>
+    <h1 class="mb" style="margin: 0; color: black; font-family: 'Roboto'; text-align:center; font-size: 48px;">We <span class="typed-text"></span><span class="cursor">|</span></h1>
+    </div></div></div>
+  </div>
+</div>
+<img src="images/divider.png" width="100%">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
 
 <script>
@@ -158,81 +163,87 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
                 <p style="font-size: 18px;" class="abtus wow animated fadeInLeft" id="abtus-2">Currently, our efforts primarily consist of providing free coding classes for kids in boot camp style classes. Our programming classes curriculum includes HTML, Python, CSS, and Java, with the number of languages extending. Additionally, we are also introducing basic internet etiquette classes, in order to better introduce the online environment to those who aren't as familiar.
                 </p>
             </div>
-
         </section>
 
-
-        <section id="chapters">
-
-            <div class="chapter-title">
-                <h2>
+<div class="container-fluid">
+  <div class="row">
+          <div class="col-sm-6" id="chapters"></div>
+          <div class="col-sm-6" style=" background-color:white;">
+            <div>
+                <h2 class="mtitle wow animated fadeInRight"> 
                     CHAPTERS
                 </h2>
+                <h6 style="color: #ea5c5c;">_________________</h6>
             </div>
-
-            <div class="chapter-info">
+            <div class="minfo wow animated fadeInRight">
                 <p>Chapters are subdivisions of Coding Tomorrow Initiative. You can join an existing chapter or start a new one at your school.</p>
             </div>
-
-
-        <div class="button" id="button-2">
+          <div class="button wow animated fadeInRight" id="button-2">
             <div id="slide"></div>
             <a href="chapters.html">view existing chapters</a>
           </div>
-
-          <div class="button" id="button-2">
+          <div class="button wow animated fadeInRight" id="button-2">
             <div id="slide"></div>
             <a href="newchapter.html">start a new chapter</a>
           </div>
-        </section>
+          </div> 
+  </div>
 
-        <section id="news">
-            <div class="news-title">
-                <h2>NEWS</h2>
-            </div>
-            <div class="news-info">
-                <p>Find out the latest news related to Coding Tomorrow Initiative.</p>
-            </div>
+  <div class="row">
+    <div class="col-sm-6" style=" background-color:white;">
+          <div>
+              <h2  class="mtitle wow animated fadeInLeft">GET INVOLVED</h2>
+              <h6 style="color: #ea5c5c;">_________________</h6>
+          </div>
+          <div class="minfo wow animated fadeInLeft">
+              <p>There are many ways you can get involved to help the Coding Tomorrow Initiative.</p>
+          </div>
+        <div class="button wow animated fadeInLeft" id="button-2">
+          <div id="slide"></div>
+          <a href="volunteer_form.html">Volunteer</a>
+        </div>
+        <div class="button wow animated fadeInLeft" id="button-2">
+          <div id="slide"></div>
+          <a href="newchapter.html">Start a new chapter</a>
+        </div>
+    </div>
+    <div class="col-sm-6" id="get_involved"></div>
+  </div>
 
-            <div class="button" id="button-2">
-                <div id="slide"></div>
-                <a href="#">Explore news</a>
-              </div>
-
-        </section>
-	    <!--team section-->
-        <section id="team">
-            <div class="team-title">
-                 <h2>THE TEAM</h2>
+  <div class="row">
+    <div class="col-sm-6" id="team"></div>
+    <div class="col-sm-6" style=" background-color:white;">
+            <div>
+                 <h2 class="mtitle wow animated fadeInRight">THE TEAM</h2>
+                 <h6 style="color: #ea5c5c;">_________________</h6>
              </div>
-             <div class="team-info">
+             <div class="minfo wow animated fadeInRight">
                  <p>Meet the members of the Coding Tomorrow Initiative and their jobs on the team.</p>
              </div>
-
-             <div class="button" id="button-2">
+             <div class="button wow animated fadeInRight" id="button-2">
                  <div id="slide"></div>
                  <a href="team.html">Meet the Team</a>
                </div>
-         </section>
+    </div>
+  </div>
 
-<!--get involved section-->
-        <section id="get_involved">
-            <div class="get_involved-title">
-                <h2>GET INVOLVED</h2>
-            </div>
-            <div class="get_involved-info">
-                <p>There are many ways you can get involved to help the Coding Tomorrow Initiative.</p>
-            </div>
-        <div class="button" id="button-2">
-            <div id="slide"></div>
-            <a href="volunteer_form.html">Volunteer</a>
+  <div class="row">
+    <div class="col-sm-6" style=" background-color:white;">
+          <div>
+              <h2 class="mtitle wow animated fadeInLeft">NEWS</h2>
+              <h6 style="color: #ea5c5c;">_________________</h6>
           </div>
-		 <div class="button" id="button-2">
-            <div id="slide"></div>
-            <a href="newchapter.html">Start a new chapter</a>
+          <div class="minfo wow animated fadeInLeft">
+              <p>Find out the latest news related to Coding Tomorrow Initiative.</p>
           </div>
-        </section>
-          <!-- Footer -->
+          <div class="button wow animated fadeInLeft" id="button-2">
+              <div id="slide"></div>
+              <a href="#">Explore news</a>
+            </div>
+    </div>  
+    <div class="col-sm-6" id="news"></div>
+   </div>
+  </div>  
         <footer>
         	<div class="footer-top">
 		        <div class="container">
