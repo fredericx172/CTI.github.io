@@ -19,7 +19,9 @@ body {
 }
 .vol-title{
 font-size: 72px;
-background-color: #FB3640;
+background-color: #ea5c5c;
+font-family: 'Roboto', sans-serif;
+font-weight: 100;
 width: 100%;
 padding-bottom: 40px;
 padding-top: 40px;
