@@ -15,6 +15,10 @@ body {
   padding: 0;
 }
 
+header{
+   position: sticky;
+}
+
 .loading {
   overflow: hidden;
   height: 100%;
