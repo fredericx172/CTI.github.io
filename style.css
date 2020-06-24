@@ -388,7 +388,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    height: 45vh;
+    height: unset;
   }
 }
 .mtitle {
@@ -506,7 +506,7 @@ header {
 @media only screen and (max-device-width: 1025px) {
   #news {
     background-attachment: scroll;
-    height: 45vh;
+    height: unset;
   }
 }
 
@@ -538,7 +538,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    height: 45vh;
+    height: unset;
   }
 }
 
@@ -558,7 +558,7 @@ header {
 @media only screen and (max-device-width: 1025px) {
   #get_involved {
     background-attachment: scroll;
-    height: 45vh;
+    height: unset;
   }
 }
 
