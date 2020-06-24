@@ -565,7 +565,7 @@ header {
 /*ABOUT US SECTION START*/
 #aboutus {
   background-color: #eee0ff;
-  height: 90vh;
+  height: calc(100% + 200px);
   padding: 35px;
 }
 
