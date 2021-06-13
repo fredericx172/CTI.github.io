@@ -255,7 +255,7 @@ header {
   float: left;
   max-width: 250px;
   min-height: 50px;
-  margin: 0;
+  margin: 1.25em;
   vertical-align: middle;
 }
 
