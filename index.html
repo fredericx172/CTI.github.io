@@ -83,17 +83,26 @@ function myFunction() {
 				  <a href="donate.html">Donate</a>
 	 			  <a href="contactUs.html">Contact</a>
 	        <div class="dpd">
-				    <button class="dropbtn">Get Involved &nbsp;<i class="fa fa-caret-down"></i>  </button>
+				    <button class="dropbtn">Get Involved &nbsp;<i class="fa fa-caret-down"></i></button>
             <div class="dpd-content">
                 <p style="line-height:2px"></p>
                 <a href="volunteer_form.html">Volunteer</a>
                 <!--<a href="#">Department Application</a> -->
                 <a href="newchapter.html">Start a New Chapter</a>
                 <p style="line-height:2px"></p>
-              </div>
+            </div>
 	 		    </div>
 	  		<a href="chapters.html">Chapters</a>
-			  <img src="images/ctilogo.png" id="logo" alt="Coding Tomorrow Initiative logo"> 
+        <button class="btn btn-default" onclick="relocate_home()">
+          <img src="images/ctilogo.png" href="chapters.html" id="logo" alt="Coding Tomorrow Initiative logo"> 
+        </button>
+        <script>
+          function relocate_home()
+          {
+               location.href = "index.html";
+          } 
+          </script>
+			  
       </nav>
 	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">☰</a>
 	</div>
@@ -313,8 +322,10 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
         <script src="js/jquery-migrate-3.0.0.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="js/wow.min.js"></script>
         <script src="js/scripts.js"></script>
+  
 	<script src="js/jquery.backstretch.min.js"></script>
     </body>
 </html>
